@@ -20,5 +20,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy . --project-name=fridge-recipe-helper --branch=main
+          command: pages deploy . --project-name=fridge-recipe-helper --branch=main --commit-message="Deploy from GitHub Actions"
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
