@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#FAF7F0">
+
+  <title>冰箱食譜小幫手 — 30 秒找到今天能煮的料理 | AI 媽媽手記</title>
+  <meta name="description" content="輸入冰箱現有食材，從 80 道台灣家常菜裡推薦今天可以做的料理。給沒空想晚餐的媽媽，30 秒搞定。">
+  <meta name="keywords" content="食譜,冰箱食譜,家常菜,台灣料理,媽媽食譜,晚餐推薦,食材推薦">
+  <meta name="author" content="AI 媽媽手記">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fridge.chparenting.com/">
+  <meta property="og:title" content="冰箱食譜小幫手 — 30 秒找到今天能煮的料理">
+  <meta property="og:description" content="輸入冰箱現有食材，從 80 道台灣家常菜裡推薦今天可以做的料理。給沒空想晚餐的媽媽。">
+  <meta property="og:image" content="https://fridge.chparenting.com/og-image.jpg">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:site_name" content="AI 媽媽手記">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="冰箱食譜小幫手">
+  <meta name="twitter:description" content="輸入冰箱現有食材，30 秒找到今天能煮的料理。">
+
+  <link rel="canonical" href="https://fridge.chparenting.com/">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'bg-cream': '#FAF7F0',
+            'text-primary': '#6B4423',
+            'text-secondary': '#9C7B5C',
+            'accent-gold': '#C9A961',
+            'accent-gold-dark': '#A88947',
+            'card-white': '#FFFFFF',
+            'border-light': '#E8E0D5',
+            'can-make': '#7BA05B',
+            'missing': '#D49B4F'
+          },
+          fontFamily: {
+            'sans': ['"Noto Sans TC"', 'sans-serif']
+          },
+          borderRadius: {
+            'card': '16px',
+            'btn': '12px'
+          },
+          boxShadow: {
+            'card': '0 2px 8px rgba(107, 68, 35, 0.08)',
+            'card-hover': '0 4px 16px rgba(107, 68, 35, 0.12)'
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-bg-cream text-text-primary font-sans min-h-screen">
+
+  <!-- 主容器 -->
+  <div class="max-w-2xl mx-auto px-4 py-8 md:py-12">
+
+    <!-- 頂部標題 -->
+    <header class="text-center mb-8">
+      <h1 class="text-3xl md:text-4xl font-semibold mb-3">冰箱裡有什麼？</h1>
+      <p class="text-text-secondary text-base md:text-lg">
+        告訴我你有的食材，我幫你找出今天可以做的料理
+      </p>
+    </header>
+
+    <!-- 食材輸入區 -->
+    <section class="bg-card-white rounded-card shadow-card p-5 mb-6">
+      <div class="flex items-center justify-between mb-3">
+        <label for="ingredients-input" class="font-medium text-text-primary">
+          你有什麼食材？
+        </label>
+        <button
+          id="clear-btn"
+          type="button"
+          class="text-sm text-text-secondary hover:text-text-primary transition"
+          aria-label="清空輸入"
+        >✕ 清空</button>
+      </div>
+
+      <textarea
+        id="ingredients-input"
+        rows="4"
+        placeholder="例如：雞蛋、馬鈴薯、洋蔥...（用逗號或換行分開）"
+        class="w-full p-3 border border-border-light rounded-btn text-base resize-none focus:outline-none focus:border-accent-gold transition"
+        aria-label="輸入食材"
+      ></textarea>
+
+      <!-- 快速食材 chips -->
+      <div class="mt-4">
+        <p class="text-sm text-text-secondary mb-2">點一下快速加入：</p>
+        <div id="quick-chips" class="flex flex-wrap gap-2">
+          <!-- 由 JS 渲染 -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 主按鈕 -->
+    <button
+      id="find-btn"
+      type="button"
+      class="w-full bg-accent-gold hover:bg-accent-gold-dark text-white text-lg font-medium py-4 rounded-btn shadow-card hover:shadow-card-hover transition mb-8"
+    >看看可以做什麼</button>
+
+    <!-- 分類 Tab Bar -->
+    <section class="mb-6">
+      <div class="flex items-center justify-between mb-3">
+        <h2 class="font-medium text-text-primary">或直接逛分類</h2>
+        <span id="recipe-count" class="text-xs text-text-secondary">共 80 道</span>
+      </div>
+      <div id="category-tabs" class="flex flex-wrap gap-2">
+        <!-- 由 JS 渲染 -->
+      </div>
+    </section>
+
+    <!-- 結果區 -->
+    <section id="results-section">
+      <div id="results-header" class="mb-4 hidden">
+        <h2 id="results-title" class="text-xl font-semibold text-text-primary"></h2>
+        <p id="results-subtitle" class="text-sm text-text-secondary mt-1"></p>
+      </div>
+
+      <div
+        id="results-grid"
+        class="grid grid-cols-1 md:grid-cols-2 gap-4"
+        aria-live="polite"
+      >
+        <!-- 由 JS 渲染料理卡片 -->
+      </div>
+
+      <!-- 空狀態 -->
+      <div id="empty-state" class="text-center py-12 text-text-secondary">
+        <p class="text-base">輸入食材，或選擇上方分類開始逛逛</p>
+      </div>
+
+      <!-- 沒結果狀態 -->
+      <div id="no-results" class="hidden text-center py-12 text-text-secondary">
+        <p class="text-base mb-2">目前內建食譜中沒有適合的</p>
+        <p class="text-sm">試試加入更多基本食材？</p>
+      </div>
+    </section>
+
+    <!-- 頁尾 -->
+    <footer class="text-center mt-16 pb-8 text-xs text-text-secondary">
+      <p>內建 80 道台灣家常菜 · 完全離線運作</p>
+      <p class="mt-1">made with ♡ by <a href="https://chparenting.com" class="hover:text-accent-gold">AI 媽媽手記</a></p>
+    </footer>
+
+  </div>
+
+  <!-- Modal：料理作法 -->
+  <div
+    id="recipe-modal"
+    class="fixed inset-0 z-50 hidden"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modal-title"
+  >
+    <!-- 背景遮罩 -->
+    <div
+      id="modal-backdrop"
+      class="absolute inset-0 bg-black/40 transition-opacity"
+    ></div>
+
+    <!-- Modal 內容（手機從下滑、電腦右側滑） -->
+    <div
+      id="modal-panel"
+      class="absolute bg-card-white shadow-2xl
+             bottom-0 left-0 right-0 rounded-t-3xl max-h-[90vh]
+             md:bottom-auto md:left-auto md:right-0 md:top-0 md:h-full md:max-h-full md:w-1/2 md:max-w-2xl md:rounded-none
+             overflow-y-auto transition-transform"
+    >
+      <!-- 手機把手 -->
+      <div class="md:hidden flex justify-center pt-3">
+        <div class="w-12 h-1.5 bg-border-light rounded-full"></div>
+      </div>
+
+      <!-- 關閉鍵（電腦版右上） -->
+      <button
+        id="modal-close"
+        type="button"
+        class="absolute top-4 right-4 w-10 h-10 flex items-center justify-center text-text-secondary hover:text-text-primary text-2xl"
+        aria-label="關閉"
+      >✕</button>
+
+      <!-- Modal 內容由 JS 注入 -->
+      <div id="modal-content" class="px-6 pt-6 pb-8 md:pt-12">
+      </div>
+
+      <!-- 底部關閉按鈕 -->
+      <div class="px-6 pb-8">
+        <button
+          id="modal-close-bottom"
+          type="button"
+          class="w-full py-3 border border-border-light rounded-btn text-text-primary hover:bg-bg-cream transition"
+        >關閉</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js?v=1"></script>
+</body>
+</html>
