@@ -206,6 +206,20 @@ textarea, input {
   border: 1px solid var(--border-light);
 }
 
+.card-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.badge-usage {
+  background: var(--accent-gold);
+  color: var(--card-white);
+  font-weight: 600;
+}
+
 /* ============================================
    Modal
    ============================================ */

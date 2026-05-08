@@ -138,6 +138,8 @@ function findRecipes(userIngredients, recipes) {
 
   if (normalized.length === 0) return [];
 
+  const userTotal = normalized.length;
+
   const scored = recipes.map(recipe => {
     const required = recipe.required_ingredients;
     const matched = required.filter(ing =>
@@ -150,6 +152,7 @@ function findRecipes(userIngredients, recipes) {
     return {
       ...recipe,
       _match_count: matched.length,
+      _user_total: userTotal,
       _total_required: required.length,
       _missing: missing,
       _can_make: missing.length === 0
@@ -157,11 +160,17 @@ function findRecipes(userIngredients, recipes) {
   });
 
   return scored
-    .filter(r => r._missing.length <= 2 && r._match_count > 0)
+    .filter(r => r._match_count > 0 && r._missing.length <= 3)
     .sort((a, b) => {
+      // 主排序：用了越多使用者食材越前面（消化冰箱優先）
+      if (a._match_count !== b._match_count) {
+        return b._match_count - a._match_count;
+      }
+      // 次排序：缺越少越前面
       if (a._missing.length !== b._missing.length) {
         return a._missing.length - b._missing.length;
       }
+      // 末排序：越快做完越前面
       return a.time_minutes - b.time_minutes;
     });
 }
@@ -171,7 +180,7 @@ function findRecipes(userIngredients, recipes) {
 // ============================================
 const QUICK_INGREDIENTS = [
   '雞蛋', '洋蔥', '紅蘿蔔', '馬鈴薯', '雞肉',
-  '豬肉', '番茄', '高麗菜', '米飯'
+  '豬肉', '番茄', '高麗菜', '豆腐'
 ];
 
 const CATEGORIES = [
@@ -318,11 +327,8 @@ function rerenderResults() {
 
     if (recipes.length > 0) {
       header.classList.remove('hidden');
-      const canMakeCount = recipes.filter(r => r._can_make).length;
-      title.textContent = canMakeCount > 0
-        ? '可以做這幾道喔'
-        : '這幾道只差 1-2 樣食材';
-      subtitle.textContent = `共 ${recipes.length} 道${state.currentCategory !== '全部' ? `（${state.currentCategory}）` : ''}`;
+      title.textContent = '幫你找了這幾道';
+      subtitle.textContent = `用最多冰箱食材的排前面 · 共 ${recipes.length} 道${state.currentCategory !== '全部' ? `（${state.currentCategory}）` : ''}`;
     } else {
       noResults.classList.remove('hidden');
       const matchedTotal = state.matchedResults.length;
@@ -371,21 +377,21 @@ function createRecipeCard(recipe) {
   const canMake = recipe._can_make;
   const missing = recipe._missing || [];
 
-  let statusBadge = '';
+  let badgeHTML = '';
   if (isMatchMode) {
-    if (canMake) {
-      statusBadge = `<span class="badge badge-can-make">✓ 完全可以做</span>`;
-    } else {
-      statusBadge = `<span class="badge badge-missing">差 ${missing.length} 樣：${missing.join('、')}</span>`;
-    }
+    const usageBadge = `<span class="badge badge-usage">用了你 ${recipe._match_count}/${recipe._user_total} 樣</span>`;
+    const statusBadge = canMake
+      ? `<span class="badge badge-can-make">✓ 全可做</span>`
+      : `<span class="badge badge-missing">缺 ${missing.join('、')}</span>`;
+    badgeHTML = `<div class="card-badges">${usageBadge}${statusBadge}</div>`;
   } else {
-    statusBadge = `<span class="badge badge-category">${recipe.category}</span>`;
+    badgeHTML = `<span class="badge badge-category">${recipe.category}</span>`;
   }
 
   const difficultyStars = '★'.repeat(recipe.difficulty) + '☆'.repeat(3 - recipe.difficulty);
 
   card.innerHTML = `
-    ${statusBadge}
+    ${badgeHTML}
     <h3 class="recipe-name">${recipe.name}</h3>
     <p class="recipe-desc">${recipe.description}</p>
     <div class="recipe-meta">

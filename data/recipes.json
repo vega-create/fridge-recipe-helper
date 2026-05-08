@@ -6,15 +6,37 @@
     "description": "經典國民家常菜，酸甜下飯",
     "time_minutes": 10,
     "difficulty": 1,
-    "tags": ["快速", "下飯", "孩子愛"],
-    "required_ingredients": ["番茄", "雞蛋"],
-    "optional_ingredients": ["蔥"],
-    "seasonings": ["鹽", "糖", "油"],
+    "tags": [
+      "快速",
+      "下飯",
+      "孩子愛"
+    ],
+    "required_ingredients": [
+      "番茄",
+      "雞蛋"
+    ],
+    "optional_ingredients": [
+      "蔥"
+    ],
+    "seasonings": [
+      "鹽",
+      "糖",
+      "油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "番茄", "amount": "2 顆，切塊" },
-      { "name": "雞蛋", "amount": "3 顆，打散" },
-      { "name": "蔥", "amount": "1 根，切段（可省略）" }
+      {
+        "name": "番茄",
+        "amount": "2 顆，切塊"
+      },
+      {
+        "name": "雞蛋",
+        "amount": "3 顆，打散"
+      },
+      {
+        "name": "蔥",
+        "amount": "1 根，切段（可省略）"
+      }
     ],
     "steps": [
       "番茄切塊備用，雞蛋打散加少許鹽",
@@ -32,14 +54,30 @@
     "description": "三分鐘搞定的萬年配菜，香氣超犯規",
     "time_minutes": 5,
     "difficulty": 1,
-    "tags": ["快速", "配菜", "新手友善"],
-    "required_ingredients": ["雞蛋", "蔥"],
+    "tags": [
+      "快速",
+      "配菜",
+      "新手友善"
+    ],
+    "required_ingredients": [
+      "雞蛋",
+      "蔥"
+    ],
     "optional_ingredients": [],
-    "seasonings": ["鹽", "油"],
+    "seasonings": [
+      "鹽",
+      "油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "雞蛋", "amount": "3 顆" },
-      { "name": "蔥", "amount": "2 根，切細蔥花" }
+      {
+        "name": "雞蛋",
+        "amount": "3 顆"
+      },
+      {
+        "name": "蔥",
+        "amount": "2 根，切細蔥花"
+      }
     ],
     "steps": [
       "蔥切成細蔥花",
@@ -58,15 +96,38 @@
     "description": "餐廳級柔嫩，蛋滑得入口即化",
     "time_minutes": 15,
     "difficulty": 2,
-    "tags": ["澎湃", "下飯", "海鮮"],
-    "required_ingredients": ["雞蛋", "蝦仁"],
-    "optional_ingredients": ["蔥"],
-    "seasonings": ["鹽", "米酒", "太白粉", "油"],
+    "tags": [
+      "澎湃",
+      "下飯",
+      "海鮮"
+    ],
+    "required_ingredients": [
+      "雞蛋",
+      "蝦仁"
+    ],
+    "optional_ingredients": [
+      "蔥"
+    ],
+    "seasonings": [
+      "鹽",
+      "米酒",
+      "太白粉",
+      "油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "蝦仁", "amount": "150g，去腸泥" },
-      { "name": "雞蛋", "amount": "4 顆，打散" },
-      { "name": "蔥", "amount": "1 根，切蔥花（可省略）" }
+      {
+        "name": "蝦仁",
+        "amount": "150g，去腸泥"
+      },
+      {
+        "name": "雞蛋",
+        "amount": "4 顆，打散"
+      },
+      {
+        "name": "蔥",
+        "amount": "1 根，切蔥花（可省略）"
+      }
     ],
     "steps": [
       "蝦仁加少許鹽、米酒、太白粉抓醃 5 分鐘",
@@ -86,16 +147,42 @@
     "description": "日式溫柔系蒸蛋，孩子和老人都愛",
     "time_minutes": 20,
     "difficulty": 2,
-    "tags": ["溫和", "孩子愛", "湯品"],
-    "required_ingredients": ["雞蛋"],
-    "optional_ingredients": ["香菇", "蝦仁", "蛤蜊"],
-    "seasonings": ["鹽", "醬油", "柴魚高湯"],
+    "tags": [
+      "溫和",
+      "孩子愛",
+      "湯品"
+    ],
+    "required_ingredients": [
+      "雞蛋"
+    ],
+    "optional_ingredients": [
+      "香菇",
+      "蝦仁",
+      "蛤蜊"
+    ],
+    "seasonings": [
+      "鹽",
+      "醬油",
+      "柴魚高湯"
+    ],
     "servings": "2 碗",
     "ingredients_with_amount": [
-      { "name": "雞蛋", "amount": "2 顆" },
-      { "name": "柴魚高湯（或冷開水）", "amount": "300ml" },
-      { "name": "香菇", "amount": "2 朵，切片（可省略）" },
-      { "name": "蝦仁", "amount": "4 隻（可省略）" }
+      {
+        "name": "雞蛋",
+        "amount": "2 顆"
+      },
+      {
+        "name": "柴魚高湯（或冷開水）",
+        "amount": "300ml"
+      },
+      {
+        "name": "香菇",
+        "amount": "2 朵，切片（可省略）"
+      },
+      {
+        "name": "蝦仁",
+        "amount": "4 隻（可省略）"
+      }
     ],
     "steps": [
       "雞蛋打散，加入冷的柴魚高湯，蛋液與水的比例 1:3",
@@ -114,16 +201,43 @@
     "description": "日式蛋捲，便當盒裡的主角",
     "time_minutes": 15,
     "difficulty": 2,
-    "tags": ["便當菜", "孩子愛", "造型"],
-    "required_ingredients": ["雞蛋"],
-    "optional_ingredients": ["蔥", "海苔"],
-    "seasonings": ["鹽", "糖", "醬油", "味醂", "油"],
+    "tags": [
+      "便當菜",
+      "孩子愛",
+      "造型"
+    ],
+    "required_ingredients": [
+      "雞蛋"
+    ],
+    "optional_ingredients": [
+      "蔥",
+      "海苔"
+    ],
+    "seasonings": [
+      "鹽",
+      "糖",
+      "醬油",
+      "味醂",
+      "油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "雞蛋", "amount": "4 顆" },
-      { "name": "味醂", "amount": "1 大匙" },
-      { "name": "醬油", "amount": "1 小匙" },
-      { "name": "糖", "amount": "1 小匙" }
+      {
+        "name": "雞蛋",
+        "amount": "4 顆"
+      },
+      {
+        "name": "味醂",
+        "amount": "1 大匙"
+      },
+      {
+        "name": "醬油",
+        "amount": "1 小匙"
+      },
+      {
+        "name": "糖",
+        "amount": "1 小匙"
+      }
     ],
     "steps": [
       "雞蛋打散，加入味醂、醬油、糖、少許鹽攪勻",
@@ -143,15 +257,36 @@
     "description": "甜脆清爽，五分鐘上桌的萬用配菜",
     "time_minutes": 8,
     "difficulty": 1,
-    "tags": ["快速", "配菜", "新手友善"],
-    "required_ingredients": ["高麗菜"],
-    "optional_ingredients": ["蒜頭", "辣椒"],
-    "seasonings": ["鹽", "油"],
+    "tags": [
+      "快速",
+      "配菜",
+      "新手友善"
+    ],
+    "required_ingredients": [
+      "高麗菜"
+    ],
+    "optional_ingredients": [
+      "蒜頭",
+      "辣椒"
+    ],
+    "seasonings": [
+      "鹽",
+      "油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "高麗菜", "amount": "半顆，手撕成片" },
-      { "name": "蒜頭", "amount": "3 瓣，拍碎（可省略）" },
-      { "name": "辣椒", "amount": "1 根，切片（可省略）" }
+      {
+        "name": "高麗菜",
+        "amount": "半顆，手撕成片"
+      },
+      {
+        "name": "蒜頭",
+        "amount": "3 瓣，拍碎（可省略）"
+      },
+      {
+        "name": "辣椒",
+        "amount": "1 根，切片（可省略）"
+      }
     ],
     "steps": [
       "高麗菜用手撕成一口大小（口感比刀切好）",
@@ -170,15 +305,37 @@
     "description": "夜市熱炒店招牌，下飯到要再添一碗",
     "time_minutes": 8,
     "difficulty": 1,
-    "tags": ["快速", "下飯", "配菜"],
-    "required_ingredients": ["空心菜"],
-    "optional_ingredients": ["辣椒"],
-    "seasonings": ["蒜頭", "鹽", "醬油", "油"],
+    "tags": [
+      "快速",
+      "下飯",
+      "配菜"
+    ],
+    "required_ingredients": [
+      "空心菜"
+    ],
+    "optional_ingredients": [
+      "辣椒"
+    ],
+    "seasonings": [
+      "蒜頭",
+      "鹽",
+      "醬油",
+      "油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "空心菜", "amount": "1 把，切段" },
-      { "name": "蒜頭", "amount": "5 瓣，拍碎" },
-      { "name": "辣椒", "amount": "1 根，切片（可省略）" }
+      {
+        "name": "空心菜",
+        "amount": "1 把，切段"
+      },
+      {
+        "name": "蒜頭",
+        "amount": "5 瓣，拍碎"
+      },
+      {
+        "name": "辣椒",
+        "amount": "1 根，切片（可省略）"
+      }
     ],
     "steps": [
       "空心菜洗淨切段，梗和葉分開",
@@ -197,16 +354,43 @@
     "description": "白菜燉到入口即化，奶香超療癒",
     "time_minutes": 25,
     "difficulty": 1,
-    "tags": ["燉煮", "孩子愛", "溫和"],
-    "required_ingredients": ["大白菜"],
-    "optional_ingredients": ["紅蘿蔔", "香菇", "蝦米"],
-    "seasonings": ["奶油", "鹽", "蒜頭", "高湯（或水）"],
+    "tags": [
+      "燉煮",
+      "孩子愛",
+      "溫和"
+    ],
+    "required_ingredients": [
+      "大白菜"
+    ],
+    "optional_ingredients": [
+      "紅蘿蔔",
+      "香菇",
+      "蝦米"
+    ],
+    "seasonings": [
+      "奶油",
+      "鹽",
+      "蒜頭",
+      "高湯（或水）"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "大白菜", "amount": "半顆，切大片" },
-      { "name": "奶油", "amount": "1 大塊（約 30g）" },
-      { "name": "紅蘿蔔", "amount": "半根，切片（可省略）" },
-      { "name": "蝦米", "amount": "1 大匙（可省略，提鮮用）" }
+      {
+        "name": "大白菜",
+        "amount": "半顆，切大片"
+      },
+      {
+        "name": "奶油",
+        "amount": "1 大塊（約 30g）"
+      },
+      {
+        "name": "紅蘿蔔",
+        "amount": "半根，切片（可省略）"
+      },
+      {
+        "name": "蝦米",
+        "amount": "1 大匙（可省略，提鮮用）"
+      }
     ],
     "steps": [
       "白菜切大片，菜梗和菜葉分開",
@@ -225,15 +409,38 @@
     "description": "夏天救星，冰過更脆爽開胃",
     "time_minutes": 10,
     "difficulty": 1,
-    "tags": ["快速", "涼拌", "夏天"],
-    "required_ingredients": ["小黃瓜"],
-    "optional_ingredients": ["辣椒"],
-    "seasonings": ["蒜頭", "鹽", "糖", "醋", "香油"],
+    "tags": [
+      "快速",
+      "涼拌",
+      "夏天"
+    ],
+    "required_ingredients": [
+      "小黃瓜"
+    ],
+    "optional_ingredients": [
+      "辣椒"
+    ],
+    "seasonings": [
+      "蒜頭",
+      "鹽",
+      "糖",
+      "醋",
+      "香油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "小黃瓜", "amount": "3 根" },
-      { "name": "蒜頭", "amount": "3 瓣，切末" },
-      { "name": "辣椒", "amount": "1 根，切片（可省略）" }
+      {
+        "name": "小黃瓜",
+        "amount": "3 根"
+      },
+      {
+        "name": "蒜頭",
+        "amount": "3 瓣，切末"
+      },
+      {
+        "name": "辣椒",
+        "amount": "1 根，切片（可省略）"
+      }
     ],
     "steps": [
       "小黃瓜用刀背拍裂，切成一口大小段",
@@ -251,16 +458,40 @@
     "description": "日式甜鹹滋味，茄子軟嫩入味",
     "time_minutes": 15,
     "difficulty": 2,
-    "tags": ["下飯", "日式", "便當菜"],
-    "required_ingredients": ["茄子"],
+    "tags": [
+      "下飯",
+      "日式",
+      "便當菜"
+    ],
+    "required_ingredients": [
+      "茄子"
+    ],
     "optional_ingredients": [],
-    "seasonings": ["味噌", "糖", "醬油", "米酒", "油"],
+    "seasonings": [
+      "味噌",
+      "糖",
+      "醬油",
+      "米酒",
+      "油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "茄子", "amount": "2 根，切滾刀塊" },
-      { "name": "味噌", "amount": "1 大匙" },
-      { "name": "糖", "amount": "1 小匙" },
-      { "name": "醬油", "amount": "1 小匙" }
+      {
+        "name": "茄子",
+        "amount": "2 根，切滾刀塊"
+      },
+      {
+        "name": "味噌",
+        "amount": "1 大匙"
+      },
+      {
+        "name": "糖",
+        "amount": "1 小匙"
+      },
+      {
+        "name": "醬油",
+        "amount": "1 小匙"
+      }
     ],
     "steps": [
       "茄子切滾刀塊，泡鹽水防止變黑",
@@ -279,16 +510,44 @@
     "description": "日式家常經典，醬汁拌飯一級棒",
     "time_minutes": 40,
     "difficulty": 2,
-    "tags": ["燉煮", "下飯", "便當菜"],
-    "required_ingredients": ["馬鈴薯", "豬肉"],
-    "optional_ingredients": ["紅蘿蔔", "洋蔥"],
-    "seasonings": ["醬油", "糖", "味醂", "米酒", "油"],
+    "tags": [
+      "燉煮",
+      "下飯",
+      "便當菜"
+    ],
+    "required_ingredients": [
+      "馬鈴薯",
+      "豬肉"
+    ],
+    "optional_ingredients": [
+      "紅蘿蔔",
+      "洋蔥"
+    ],
+    "seasonings": [
+      "醬油",
+      "糖",
+      "味醂",
+      "米酒",
+      "油"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "馬鈴薯", "amount": "2 顆，切塊" },
-      { "name": "豬肉（梅花或五花）", "amount": "300g，切片" },
-      { "name": "紅蘿蔔", "amount": "1 根，切塊（可省略）" },
-      { "name": "洋蔥", "amount": "1 顆，切塊（可省略）" }
+      {
+        "name": "馬鈴薯",
+        "amount": "2 顆，切塊"
+      },
+      {
+        "name": "豬肉（梅花或五花）",
+        "amount": "300g，切片"
+      },
+      {
+        "name": "紅蘿蔔",
+        "amount": "1 根，切塊（可省略）"
+      },
+      {
+        "name": "洋蔥",
+        "amount": "1 顆，切塊（可省略）"
+      }
     ],
     "steps": [
       "馬鈴薯、紅蘿蔔切塊；洋蔥切塊；豬肉切片",
@@ -308,15 +567,38 @@
     "description": "清甜暖胃，冬天必備的療癒系湯品",
     "time_minutes": 35,
     "difficulty": 1,
-    "tags": ["湯品", "溫和", "冬天"],
-    "required_ingredients": ["白蘿蔔"],
-    "optional_ingredients": ["排骨", "紅蘿蔔", "香菜"],
-    "seasonings": ["鹽", "薑", "白胡椒粉"],
+    "tags": [
+      "湯品",
+      "溫和",
+      "冬天"
+    ],
+    "required_ingredients": [
+      "白蘿蔔"
+    ],
+    "optional_ingredients": [
+      "排骨",
+      "紅蘿蔔",
+      "香菜"
+    ],
+    "seasonings": [
+      "鹽",
+      "薑",
+      "白胡椒粉"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "白蘿蔔", "amount": "半根，切大塊" },
-      { "name": "排骨", "amount": "300g（可省略，純素也行）" },
-      { "name": "薑片", "amount": "3 片" }
+      {
+        "name": "白蘿蔔",
+        "amount": "半根，切大塊"
+      },
+      {
+        "name": "排骨",
+        "amount": "300g（可省略，純素也行）"
+      },
+      {
+        "name": "薑片",
+        "amount": "3 片"
+      }
     ],
     "steps": [
       "白蘿蔔削皮切大塊（連皮煮會苦）",
@@ -335,16 +617,48 @@
     "description": "餐廳開胃湯，自己做料更澎湃",
     "time_minutes": 25,
     "difficulty": 2,
-    "tags": ["湯品", "下飯", "經典"],
-    "required_ingredients": ["豆腐", "雞蛋"],
-    "optional_ingredients": ["木耳", "金針菇", "竹筍", "豬肉絲", "紅蘿蔔"],
-    "seasonings": ["醬油", "白醋", "白胡椒粉", "鹽", "太白粉", "香油"],
+    "tags": [
+      "湯品",
+      "下飯",
+      "經典"
+    ],
+    "required_ingredients": [
+      "豆腐",
+      "雞蛋"
+    ],
+    "optional_ingredients": [
+      "木耳",
+      "金針菇",
+      "竹筍",
+      "豬肉絲",
+      "紅蘿蔔"
+    ],
+    "seasonings": [
+      "醬油",
+      "白醋",
+      "白胡椒粉",
+      "鹽",
+      "太白粉",
+      "香油"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "嫩豆腐", "amount": "1 盒，切細條" },
-      { "name": "雞蛋", "amount": "1 顆，打散" },
-      { "name": "木耳", "amount": "2 朵，切絲（可省略）" },
-      { "name": "豬肉絲", "amount": "100g（可省略）" }
+      {
+        "name": "嫩豆腐",
+        "amount": "1 盒，切細條"
+      },
+      {
+        "name": "雞蛋",
+        "amount": "1 顆，打散"
+      },
+      {
+        "name": "木耳",
+        "amount": "2 朵，切絲（可省略）"
+      },
+      {
+        "name": "豬肉絲",
+        "amount": "100g（可省略）"
+      }
     ],
     "steps": [
       "所有食材切成細絲或細條（一致才好看）",
@@ -364,17 +678,48 @@
     "description": "九層塔香撲鼻，台菜代表作",
     "time_minutes": 30,
     "difficulty": 2,
-    "tags": ["下飯", "經典", "台菜"],
-    "required_ingredients": ["雞肉", "九層塔"],
+    "tags": [
+      "下飯",
+      "經典",
+      "台菜"
+    ],
+    "required_ingredients": [
+      "雞肉",
+      "九層塔"
+    ],
     "optional_ingredients": [],
-    "seasonings": ["蒜頭", "薑", "辣椒", "醬油", "麻油", "米酒", "糖", "冰糖"],
+    "seasonings": [
+      "蒜頭",
+      "薑",
+      "辣椒",
+      "醬油",
+      "麻油",
+      "米酒",
+      "糖",
+      "冰糖"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "雞腿肉", "amount": "2 隻，切塊（或半雞剁塊）" },
-      { "name": "九層塔", "amount": "1 大把" },
-      { "name": "薑", "amount": "1 塊，切厚片" },
-      { "name": "蒜頭", "amount": "整顆 1 球，去皮" },
-      { "name": "辣椒", "amount": "2 根（不吃辣可省略）" }
+      {
+        "name": "雞腿肉",
+        "amount": "2 隻，切塊（或半雞剁塊）"
+      },
+      {
+        "name": "九層塔",
+        "amount": "1 大把"
+      },
+      {
+        "name": "薑",
+        "amount": "1 塊，切厚片"
+      },
+      {
+        "name": "蒜頭",
+        "amount": "整顆 1 球，去皮"
+      },
+      {
+        "name": "辣椒",
+        "amount": "2 根（不吃辣可省略）"
+      }
     ],
     "steps": [
       "雞肉切塊，用熱水汆燙 30 秒撈起",
@@ -395,16 +740,47 @@
     "description": "香辣帶酸甜，花生增添酥脆口感",
     "time_minutes": 25,
     "difficulty": 2,
-    "tags": ["下飯", "經典", "辣"],
-    "required_ingredients": ["雞肉"],
-    "optional_ingredients": ["花生", "蔥", "小黃瓜"],
-    "seasonings": ["蒜頭", "辣椒（乾辣椒）", "醬油", "醋", "糖", "米酒", "太白粉", "油"],
+    "tags": [
+      "下飯",
+      "經典",
+      "辣"
+    ],
+    "required_ingredients": [
+      "雞肉"
+    ],
+    "optional_ingredients": [
+      "花生",
+      "蔥",
+      "小黃瓜"
+    ],
+    "seasonings": [
+      "蒜頭",
+      "辣椒（乾辣椒）",
+      "醬油",
+      "醋",
+      "糖",
+      "米酒",
+      "太白粉",
+      "油"
+    ],
     "servings": "2-3 人份",
     "ingredients_with_amount": [
-      { "name": "雞胸肉或雞腿肉", "amount": "300g，切丁" },
-      { "name": "花生", "amount": "1 把（可省略）" },
-      { "name": "乾辣椒", "amount": "10 根，剪段" },
-      { "name": "蔥", "amount": "2 根，切段" }
+      {
+        "name": "雞胸肉或雞腿肉",
+        "amount": "300g，切丁"
+      },
+      {
+        "name": "花生",
+        "amount": "1 把（可省略）"
+      },
+      {
+        "name": "乾辣椒",
+        "amount": "10 根，剪段"
+      },
+      {
+        "name": "蔥",
+        "amount": "2 根，切段"
+      }
     ],
     "steps": [
       "雞肉切丁，加少許醬油、米酒、太白粉抓醃 10 分鐘",
@@ -424,15 +800,42 @@
     "description": "酸甜開胃，孩子的最愛之一",
     "time_minutes": 35,
     "difficulty": 2,
-    "tags": ["下飯", "孩子愛", "經典"],
-    "required_ingredients": ["排骨"],
-    "optional_ingredients": ["鳳梨", "青椒", "番茄"],
-    "seasonings": ["醬油", "醋", "糖", "番茄醬", "米酒", "太白粉", "油"],
+    "tags": [
+      "下飯",
+      "孩子愛",
+      "經典"
+    ],
+    "required_ingredients": [
+      "排骨"
+    ],
+    "optional_ingredients": [
+      "鳳梨",
+      "青椒",
+      "番茄"
+    ],
+    "seasonings": [
+      "醬油",
+      "醋",
+      "糖",
+      "番茄醬",
+      "米酒",
+      "太白粉",
+      "油"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "小排骨", "amount": "500g" },
-      { "name": "鳳梨", "amount": "幾片，切塊（可省略）" },
-      { "name": "青椒", "amount": "1 顆，切塊（可省略）" }
+      {
+        "name": "小排骨",
+        "amount": "500g"
+      },
+      {
+        "name": "鳳梨",
+        "amount": "幾片，切塊（可省略）"
+      },
+      {
+        "name": "青椒",
+        "amount": "1 顆，切塊（可省略）"
+      }
     ],
     "steps": [
       "排骨用 1 大匙醬油、1 大匙米酒醃 15 分鐘",
@@ -452,17 +855,49 @@
     "description": "台灣國民美食，一鍋飄香整個家",
     "time_minutes": 90,
     "difficulty": 2,
-    "tags": ["下飯", "經典", "台菜"],
-    "required_ingredients": ["豬肉", "米飯"],
-    "optional_ingredients": ["香菇", "紅蔥頭", "水煮蛋"],
-    "seasonings": ["醬油", "冰糖", "米酒", "五香粉", "白胡椒粉", "蒜頭"],
+    "tags": [
+      "下飯",
+      "經典",
+      "台菜"
+    ],
+    "required_ingredients": [
+      "豬肉"
+    ],
+    "optional_ingredients": [
+      "香菇",
+      "紅蔥頭",
+      "水煮蛋"
+    ],
+    "seasonings": [
+      "醬油",
+      "冰糖",
+      "米酒",
+      "五香粉",
+      "白胡椒粉",
+      "蒜頭"
+    ],
     "servings": "4-6 人份",
     "ingredients_with_amount": [
-      { "name": "豬絞肉（或切丁五花肉）", "amount": "600g" },
-      { "name": "白米飯", "amount": "適量（4 碗）" },
-      { "name": "紅蔥頭", "amount": "10 顆，切末（沒有用蒜頭代替）" },
-      { "name": "乾香菇", "amount": "5 朵，泡軟切丁（可省略）" },
-      { "name": "水煮蛋", "amount": "4 顆（可省略）" }
+      {
+        "name": "豬絞肉（或切丁五花肉）",
+        "amount": "600g"
+      },
+      {
+        "name": "白米飯",
+        "amount": "適量（4 碗）"
+      },
+      {
+        "name": "紅蔥頭",
+        "amount": "10 顆，切末（沒有用蒜頭代替）"
+      },
+      {
+        "name": "乾香菇",
+        "amount": "5 朵，泡軟切丁（可省略）"
+      },
+      {
+        "name": "水煮蛋",
+        "amount": "4 顆（可省略）"
+      }
     ],
     "steps": [
       "紅蔥頭切末，鍋熱倒油小火爆到金黃酥脆（油蔥酥）",
@@ -483,18 +918,51 @@
     "description": "用市售咖哩塊就能做，懶人救星",
     "time_minutes": 40,
     "difficulty": 1,
-    "tags": ["下飯", "孩子愛", "新手友善"],
-    "required_ingredients": ["馬鈴薯", "紅蘿蔔", "洋蔥", "米飯"],
-    "optional_ingredients": ["雞肉", "豬肉", "牛肉"],
-    "seasonings": ["咖哩塊", "油"],
+    "tags": [
+      "下飯",
+      "孩子愛",
+      "新手友善"
+    ],
+    "required_ingredients": [
+      "馬鈴薯",
+      "紅蘿蔔",
+      "洋蔥"
+    ],
+    "optional_ingredients": [
+      "雞肉",
+      "豬肉",
+      "牛肉"
+    ],
+    "seasonings": [
+      "咖哩塊",
+      "油"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "市售咖哩塊", "amount": "半盒（依口味選甜或辣）" },
-      { "name": "馬鈴薯", "amount": "2 顆，切塊" },
-      { "name": "紅蘿蔔", "amount": "1 根，切塊" },
-      { "name": "洋蔥", "amount": "1 顆，切塊" },
-      { "name": "雞腿肉或豬肉", "amount": "300g，切塊" },
-      { "name": "白米飯", "amount": "適量" }
+      {
+        "name": "市售咖哩塊",
+        "amount": "半盒（依口味選甜或辣）"
+      },
+      {
+        "name": "馬鈴薯",
+        "amount": "2 顆，切塊"
+      },
+      {
+        "name": "紅蘿蔔",
+        "amount": "1 根，切塊"
+      },
+      {
+        "name": "洋蔥",
+        "amount": "1 顆，切塊"
+      },
+      {
+        "name": "雞腿肉或豬肉",
+        "amount": "300g，切塊"
+      },
+      {
+        "name": "白米飯",
+        "amount": "適量"
+      }
     ],
     "steps": [
       "所有食材切塊，肉切塊備用",
@@ -515,16 +983,46 @@
     "description": "麻辣鮮香，三碗白飯不夠吃",
     "time_minutes": 20,
     "difficulty": 2,
-    "tags": ["下飯", "辣", "川菜"],
-    "required_ingredients": ["豆腐", "豬肉"],
-    "optional_ingredients": ["蔥"],
-    "seasonings": ["豆瓣醬", "醬油", "糖", "蒜頭", "薑", "太白粉", "花椒粉", "油"],
+    "tags": [
+      "下飯",
+      "辣",
+      "川菜"
+    ],
+    "required_ingredients": [
+      "豆腐",
+      "豬肉"
+    ],
+    "optional_ingredients": [
+      "蔥"
+    ],
+    "seasonings": [
+      "豆瓣醬",
+      "醬油",
+      "糖",
+      "蒜頭",
+      "薑",
+      "太白粉",
+      "花椒粉",
+      "油"
+    ],
     "servings": "2-3 人份",
     "ingredients_with_amount": [
-      { "name": "嫩豆腐", "amount": "1 盒，切丁" },
-      { "name": "豬絞肉", "amount": "150g" },
-      { "name": "豆瓣醬", "amount": "1 大匙" },
-      { "name": "蔥", "amount": "2 根，切蔥花（可省略）" }
+      {
+        "name": "嫩豆腐",
+        "amount": "1 盒，切丁"
+      },
+      {
+        "name": "豬絞肉",
+        "amount": "150g"
+      },
+      {
+        "name": "豆瓣醬",
+        "amount": "1 大匙"
+      },
+      {
+        "name": "蔥",
+        "amount": "2 根，切蔥花（可省略）"
+      }
     ],
     "steps": [
       "豆腐切丁，用滾水加少許鹽汆燙 1 分鐘撈起（去豆味）",
@@ -545,16 +1043,47 @@
     "description": "大火快炒鍋氣足，超下飯",
     "time_minutes": 15,
     "difficulty": 2,
-    "tags": ["下飯", "快速", "經典"],
-    "required_ingredients": ["牛肉", "蔥"],
-    "optional_ingredients": ["洋蔥", "辣椒"],
-    "seasonings": ["醬油", "蠔油", "米酒", "糖", "太白粉", "蒜頭", "薑", "油"],
+    "tags": [
+      "下飯",
+      "快速",
+      "經典"
+    ],
+    "required_ingredients": [
+      "牛肉",
+      "蔥"
+    ],
+    "optional_ingredients": [
+      "洋蔥",
+      "辣椒"
+    ],
+    "seasonings": [
+      "醬油",
+      "蠔油",
+      "米酒",
+      "糖",
+      "太白粉",
+      "蒜頭",
+      "薑",
+      "油"
+    ],
     "servings": "2-3 人份",
     "ingredients_with_amount": [
-      { "name": "牛肉片", "amount": "300g（火鍋肉片即可）" },
-      { "name": "蔥", "amount": "5 根，切段（蔥要多）" },
-      { "name": "薑", "amount": "幾片" },
-      { "name": "蒜頭", "amount": "3 瓣，拍碎" }
+      {
+        "name": "牛肉片",
+        "amount": "300g（火鍋肉片即可）"
+      },
+      {
+        "name": "蔥",
+        "amount": "5 根，切段（蔥要多）"
+      },
+      {
+        "name": "薑",
+        "amount": "幾片"
+      },
+      {
+        "name": "蒜頭",
+        "amount": "3 瓣，拍碎"
+      }
     ],
     "steps": [
       "牛肉用 1 大匙醬油、1 大匙米酒、1 小匙太白粉抓醃 10 分鐘",
@@ -573,17 +1102,49 @@
     "description": "電鍋一鍵搞定，懶人晚餐救星",
     "time_minutes": 50,
     "difficulty": 1,
-    "tags": ["一鍋到底", "孩子愛", "新手友善"],
-    "required_ingredients": ["雞肉", "米飯"],
-    "optional_ingredients": ["香菇", "紅蘿蔔", "玉米", "毛豆"],
-    "seasonings": ["醬油", "米酒", "鹽", "薑", "油"],
+    "tags": [
+      "一鍋到底",
+      "孩子愛",
+      "新手友善"
+    ],
+    "required_ingredients": [
+      "雞肉"
+    ],
+    "optional_ingredients": [
+      "香菇",
+      "紅蘿蔔",
+      "玉米",
+      "毛豆"
+    ],
+    "seasonings": [
+      "醬油",
+      "米酒",
+      "鹽",
+      "薑",
+      "油"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "白米", "amount": "2 杯（米杯）" },
-      { "name": "雞腿肉", "amount": "300g，切丁" },
-      { "name": "紅蘿蔔", "amount": "半根，切丁（可省略）" },
-      { "name": "乾香菇", "amount": "3 朵，泡軟切片（可省略）" },
-      { "name": "玉米粒", "amount": "半罐（可省略）" }
+      {
+        "name": "白米",
+        "amount": "2 杯（米杯）"
+      },
+      {
+        "name": "雞腿肉",
+        "amount": "300g，切丁"
+      },
+      {
+        "name": "紅蘿蔔",
+        "amount": "半根，切丁（可省略）"
+      },
+      {
+        "name": "乾香菇",
+        "amount": "3 朵，泡軟切片（可省略）"
+      },
+      {
+        "name": "玉米粒",
+        "amount": "半罐（可省略）"
+      }
     ],
     "steps": [
       "白米洗淨瀝乾",
@@ -604,16 +1165,46 @@
     "description": "鮮甜原味，蒸出來像在港式餐廳",
     "time_minutes": 20,
     "difficulty": 1,
-    "tags": ["海鮮", "新手友善", "宴客"],
-    "required_ingredients": ["魚"],
-    "optional_ingredients": ["蔥", "薑", "辣椒"],
-    "seasonings": ["醬油", "米酒", "鹽", "糖", "白胡椒粉", "香油", "油"],
+    "tags": [
+      "海鮮",
+      "新手友善",
+      "宴客"
+    ],
+    "required_ingredients": [
+      "魚"
+    ],
+    "optional_ingredients": [
+      "蔥",
+      "薑",
+      "辣椒"
+    ],
+    "seasonings": [
+      "醬油",
+      "米酒",
+      "鹽",
+      "糖",
+      "白胡椒粉",
+      "香油",
+      "油"
+    ],
     "servings": "2-3 人份",
     "ingredients_with_amount": [
-      { "name": "新鮮魚", "amount": "1 條（鱸魚、鯛魚、午仔魚都可）" },
-      { "name": "蔥", "amount": "3 根，2 根切段、1 根切細絲" },
-      { "name": "薑", "amount": "1 塊，一半切片、一半切細絲" },
-      { "name": "辣椒", "amount": "1 根，切細絲（可省略）" }
+      {
+        "name": "新鮮魚",
+        "amount": "1 條（鱸魚、鯛魚、午仔魚都可）"
+      },
+      {
+        "name": "蔥",
+        "amount": "3 根，2 根切段、1 根切細絲"
+      },
+      {
+        "name": "薑",
+        "amount": "1 塊，一半切片、一半切細絲"
+      },
+      {
+        "name": "辣椒",
+        "amount": "1 根，切細絲（可省略）"
+      }
     ],
     "steps": [
       "魚洗淨擦乾，肚內外抹少許鹽和米酒去腥",
@@ -634,16 +1225,44 @@
     "description": "整顆蒜頭爆香，蝦子鮮甜帶蒜味",
     "time_minutes": 15,
     "difficulty": 1,
-    "tags": ["海鮮", "快速", "新手友善"],
-    "required_ingredients": ["蝦子"],
-    "optional_ingredients": ["蔥"],
-    "seasonings": ["蒜頭", "醬油", "米酒", "糖", "鹽", "奶油", "油"],
+    "tags": [
+      "海鮮",
+      "快速",
+      "新手友善"
+    ],
+    "required_ingredients": [
+      "蝦子"
+    ],
+    "optional_ingredients": [
+      "蔥"
+    ],
+    "seasonings": [
+      "蒜頭",
+      "醬油",
+      "米酒",
+      "糖",
+      "鹽",
+      "奶油",
+      "油"
+    ],
     "servings": "2-3 人份",
     "ingredients_with_amount": [
-      { "name": "白蝦或草蝦", "amount": "300g（去鬚剪頭）" },
-      { "name": "蒜頭", "amount": "整球 1 顆，切末（蒜要多）" },
-      { "name": "奶油", "amount": "1 小塊（可省略，用油即可）" },
-      { "name": "蔥", "amount": "1 根，切蔥花（可省略）" }
+      {
+        "name": "白蝦或草蝦",
+        "amount": "300g（去鬚剪頭）"
+      },
+      {
+        "name": "蒜頭",
+        "amount": "整球 1 顆，切末（蒜要多）"
+      },
+      {
+        "name": "奶油",
+        "amount": "1 小塊（可省略，用油即可）"
+      },
+      {
+        "name": "蔥",
+        "amount": "1 根，切蔥花（可省略）"
+      }
     ],
     "steps": [
       "蝦子剪掉鬚和尖刺，背部開刀去腸泥",
@@ -664,16 +1283,43 @@
     "description": "三樣食材，鮮到喝完想再添",
     "time_minutes": 20,
     "difficulty": 1,
-    "tags": ["海鮮", "湯品", "快速"],
-    "required_ingredients": ["蛤蜊"],
-    "optional_ingredients": ["薑", "蔥", "九層塔"],
-    "seasonings": ["薑", "米酒", "鹽", "白胡椒粉"],
+    "tags": [
+      "海鮮",
+      "湯品",
+      "快速"
+    ],
+    "required_ingredients": [
+      "蛤蜊"
+    ],
+    "optional_ingredients": [
+      "薑",
+      "蔥",
+      "九層塔"
+    ],
+    "seasonings": [
+      "薑",
+      "米酒",
+      "鹽",
+      "白胡椒粉"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "蛤蜊", "amount": "600g（吐沙過的）" },
-      { "name": "薑絲", "amount": "1 大把" },
-      { "name": "蔥", "amount": "1 根，切蔥花（可省略）" },
-      { "name": "九層塔", "amount": "幾片（可省略）" }
+      {
+        "name": "蛤蜊",
+        "amount": "600g（吐沙過的）"
+      },
+      {
+        "name": "薑絲",
+        "amount": "1 大把"
+      },
+      {
+        "name": "蔥",
+        "amount": "1 根，切蔥花（可省略）"
+      },
+      {
+        "name": "九層塔",
+        "amount": "幾片（可省略）"
+      }
     ],
     "steps": [
       "蛤蜊買回來泡鹽水吐沙至少 1 小時",
@@ -693,16 +1339,44 @@
     "description": "日式風味，鮭魚油香拌入米粒",
     "time_minutes": 50,
     "difficulty": 1,
-    "tags": ["一鍋到底", "孩子愛", "海鮮"],
-    "required_ingredients": ["鮭魚", "米飯"],
-    "optional_ingredients": ["毛豆", "玉米", "海苔"],
-    "seasonings": ["醬油", "米酒", "鹽", "味醂", "薑"],
+    "tags": [
+      "一鍋到底",
+      "孩子愛",
+      "海鮮"
+    ],
+    "required_ingredients": [
+      "鮭魚"
+    ],
+    "optional_ingredients": [
+      "毛豆",
+      "玉米",
+      "海苔"
+    ],
+    "seasonings": [
+      "醬油",
+      "米酒",
+      "鹽",
+      "味醂",
+      "薑"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "白米", "amount": "2 杯" },
-      { "name": "鮭魚", "amount": "1 大片（300g 左右）" },
-      { "name": "薑", "amount": "幾絲" },
-      { "name": "毛豆", "amount": "半碗（可省略）" }
+      {
+        "name": "白米",
+        "amount": "2 杯"
+      },
+      {
+        "name": "鮭魚",
+        "amount": "1 大片（300g 左右）"
+      },
+      {
+        "name": "薑",
+        "amount": "幾絲"
+      },
+      {
+        "name": "毛豆",
+        "amount": "半碗（可省略）"
+      }
     ],
     "steps": [
       "白米洗淨瀝乾放電鍋內鍋",
@@ -723,16 +1397,45 @@
     "description": "看似簡單卻是廚藝試金石，米粒粒分明",
     "time_minutes": 12,
     "difficulty": 2,
-    "tags": ["主食", "快速", "經典"],
-    "required_ingredients": ["米飯", "雞蛋"],
-    "optional_ingredients": ["蔥", "蝦仁", "火腿", "玉米", "紅蘿蔔"],
-    "seasonings": ["醬油", "鹽", "白胡椒粉", "油"],
+    "tags": [
+      "主食",
+      "快速",
+      "經典"
+    ],
+    "required_ingredients": [
+      "雞蛋"
+    ],
+    "optional_ingredients": [
+      "蔥",
+      "蝦仁",
+      "火腿",
+      "玉米",
+      "紅蘿蔔"
+    ],
+    "seasonings": [
+      "醬油",
+      "鹽",
+      "白胡椒粉",
+      "油"
+    ],
     "servings": "1-2 人份",
     "ingredients_with_amount": [
-      { "name": "白飯", "amount": "2 碗（隔夜飯最好）" },
-      { "name": "雞蛋", "amount": "2 顆，打散" },
-      { "name": "蔥", "amount": "2 根，切蔥花" },
-      { "name": "火腿或玉米", "amount": "適量（可省略）" }
+      {
+        "name": "白飯",
+        "amount": "2 碗（隔夜飯最好）"
+      },
+      {
+        "name": "雞蛋",
+        "amount": "2 顆，打散"
+      },
+      {
+        "name": "蔥",
+        "amount": "2 根，切蔥花"
+      },
+      {
+        "name": "火腿或玉米",
+        "amount": "適量（可省略）"
+      }
     ],
     "steps": [
       "白飯弄鬆（隔夜飯不用，當天飯先冰過）",
@@ -753,16 +1456,47 @@
     "description": "簡化版滷肉，30 分鐘就有家的味道",
     "time_minutes": 30,
     "difficulty": 1,
-    "tags": ["主食", "下飯", "台菜"],
-    "required_ingredients": ["豬肉", "麵條"],
-    "optional_ingredients": ["紅蔥頭", "青菜", "蛋"],
-    "seasonings": ["醬油", "冰糖", "米酒", "蒜頭", "白胡椒粉", "五香粉", "油"],
+    "tags": [
+      "主食",
+      "下飯",
+      "台菜"
+    ],
+    "required_ingredients": [
+      "豬肉",
+      "麵條"
+    ],
+    "optional_ingredients": [
+      "紅蔥頭",
+      "青菜",
+      "蛋"
+    ],
+    "seasonings": [
+      "醬油",
+      "冰糖",
+      "米酒",
+      "蒜頭",
+      "白胡椒粉",
+      "五香粉",
+      "油"
+    ],
     "servings": "2-3 人份",
     "ingredients_with_amount": [
-      { "name": "豬絞肉", "amount": "300g" },
-      { "name": "麵條", "amount": "適量（白麵或關廟麵）" },
-      { "name": "紅蔥頭", "amount": "5 顆，切末（沒有用蒜頭代替）" },
-      { "name": "青菜", "amount": "1 把（可省略）" }
+      {
+        "name": "豬絞肉",
+        "amount": "300g"
+      },
+      {
+        "name": "麵條",
+        "amount": "適量（白麵或關廟麵）"
+      },
+      {
+        "name": "紅蔥頭",
+        "amount": "5 顆，切末（沒有用蒜頭代替）"
+      },
+      {
+        "name": "青菜",
+        "amount": "1 把（可省略）"
+      }
     ],
     "steps": [
       "紅蔥頭切末，鍋熱倒油爆香到金黃（油蔥酥）",
@@ -783,17 +1517,51 @@
     "description": "番茄湯汁濃郁，孩子接受度超高",
     "time_minutes": 25,
     "difficulty": 1,
-    "tags": ["主食", "孩子愛", "西式"],
-    "required_ingredients": ["義大利麵", "番茄"],
-    "optional_ingredients": ["豬絞肉", "牛絞肉", "洋蔥", "蒜頭", "起司粉"],
-    "seasonings": ["鹽", "黑胡椒", "糖", "橄欖油", "義式香料"],
+    "tags": [
+      "主食",
+      "孩子愛",
+      "西式"
+    ],
+    "required_ingredients": [
+      "義大利麵",
+      "番茄"
+    ],
+    "optional_ingredients": [
+      "豬絞肉",
+      "牛絞肉",
+      "洋蔥",
+      "蒜頭",
+      "起司粉"
+    ],
+    "seasonings": [
+      "鹽",
+      "黑胡椒",
+      "糖",
+      "橄欖油",
+      "義式香料"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "義大利麵", "amount": "200g" },
-      { "name": "番茄", "amount": "3 顆，切丁（或番茄罐頭半罐）" },
-      { "name": "豬絞肉或牛絞肉", "amount": "200g（可省略）" },
-      { "name": "洋蔥", "amount": "半顆，切丁（可省略）" },
-      { "name": "蒜頭", "amount": "3 瓣，切末" }
+      {
+        "name": "義大利麵",
+        "amount": "200g"
+      },
+      {
+        "name": "番茄",
+        "amount": "3 顆，切丁（或番茄罐頭半罐）"
+      },
+      {
+        "name": "豬絞肉或牛絞肉",
+        "amount": "200g（可省略）"
+      },
+      {
+        "name": "洋蔥",
+        "amount": "半顆，切丁（可省略）"
+      },
+      {
+        "name": "蒜頭",
+        "amount": "3 瓣，切末"
+      }
     ],
     "steps": [
       "煮一大鍋滾水加 1 大匙鹽，下義大利麵煮到包裝時間少 1 分鐘",
@@ -814,16 +1582,41 @@
     "description": "現煎酥脆多層次，比早餐店還香",
     "time_minutes": 60,
     "difficulty": 2,
-    "tags": ["主食", "早餐", "台式"],
-    "required_ingredients": ["麵粉", "蔥"],
-    "optional_ingredients": ["雞蛋"],
-    "seasonings": ["鹽", "白胡椒粉", "油"],
+    "tags": [
+      "主食",
+      "早餐",
+      "台式"
+    ],
+    "required_ingredients": [
+      "麵粉",
+      "蔥"
+    ],
+    "optional_ingredients": [
+      "雞蛋"
+    ],
+    "seasonings": [
+      "鹽",
+      "白胡椒粉",
+      "油"
+    ],
     "servings": "3-4 片",
     "ingredients_with_amount": [
-      { "name": "中筋麵粉", "amount": "300g" },
-      { "name": "熱水", "amount": "150ml" },
-      { "name": "冷水", "amount": "30ml" },
-      { "name": "蔥", "amount": "1 大把，切細蔥花" }
+      {
+        "name": "中筋麵粉",
+        "amount": "300g"
+      },
+      {
+        "name": "熱水",
+        "amount": "150ml"
+      },
+      {
+        "name": "冷水",
+        "amount": "30ml"
+      },
+      {
+        "name": "蔥",
+        "amount": "1 大把，切細蔥花"
+      }
     ],
     "steps": [
       "麵粉加熱水攪成絮狀（半燙麵的關鍵）",
@@ -844,17 +1637,51 @@
     "description": "溫柔暖胃，生病或想吃清淡的好選擇",
     "time_minutes": 60,
     "difficulty": 1,
-    "tags": ["主食", "粥品", "溫和"],
-    "required_ingredients": ["米飯", "皮蛋", "豬肉"],
-    "optional_ingredients": ["蔥", "薑絲", "油條", "香菜"],
-    "seasonings": ["鹽", "白胡椒粉", "醬油", "米酒", "香油", "薑"],
+    "tags": [
+      "主食",
+      "粥品",
+      "溫和"
+    ],
+    "required_ingredients": [
+      "皮蛋",
+      "豬肉"
+    ],
+    "optional_ingredients": [
+      "蔥",
+      "薑絲",
+      "油條",
+      "香菜"
+    ],
+    "seasonings": [
+      "鹽",
+      "白胡椒粉",
+      "醬油",
+      "米酒",
+      "香油",
+      "薑"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "白米", "amount": "1 杯（米杯）" },
-      { "name": "皮蛋", "amount": "2 顆，切丁" },
-      { "name": "豬肉（里肌或絞肉）", "amount": "200g，切細條" },
-      { "name": "薑絲", "amount": "1 小把" },
-      { "name": "蔥", "amount": "1 根，切蔥花" }
+      {
+        "name": "白米",
+        "amount": "1 杯（米杯）"
+      },
+      {
+        "name": "皮蛋",
+        "amount": "2 顆，切丁"
+      },
+      {
+        "name": "豬肉（里肌或絞肉）",
+        "amount": "200g，切細條"
+      },
+      {
+        "name": "薑絲",
+        "amount": "1 小把"
+      },
+      {
+        "name": "蔥",
+        "amount": "1 根，切蔥花"
+      }
     ],
     "steps": [
       "豬肉用 1 小匙醬油、1 小匙米酒、半小匙香油醃 10 分鐘",
@@ -875,15 +1702,37 @@
     "description": "古早味煎蛋，鹹香酥脆",
     "time_minutes": 10,
     "difficulty": 1,
-    "tags": ["古早味", "下飯", "便當菜"],
-    "required_ingredients": ["雞蛋", "菜脯"],
-    "optional_ingredients": ["蔥"],
-    "seasonings": ["糖", "白胡椒粉", "油"],
+    "tags": [
+      "古早味",
+      "下飯",
+      "便當菜"
+    ],
+    "required_ingredients": [
+      "雞蛋",
+      "菜脯"
+    ],
+    "optional_ingredients": [
+      "蔥"
+    ],
+    "seasonings": [
+      "糖",
+      "白胡椒粉",
+      "油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "雞蛋", "amount": "4 顆" },
-      { "name": "菜脯（蘿蔔乾）", "amount": "半碗，切末" },
-      { "name": "蔥", "amount": "1 根，切蔥花（可省略）" }
+      {
+        "name": "雞蛋",
+        "amount": "4 顆"
+      },
+      {
+        "name": "菜脯（蘿蔔乾）",
+        "amount": "半碗，切末"
+      },
+      {
+        "name": "蔥",
+        "amount": "1 根，切蔥花（可省略）"
+      }
     ],
     "steps": [
       "菜脯用清水沖洗一下擠乾，太鹹可以泡 10 分鐘",
@@ -903,15 +1752,38 @@
     "description": "蝦皮提鮮，平凡蛋變得超有味",
     "time_minutes": 8,
     "difficulty": 1,
-    "tags": ["快速", "古早味", "配菜"],
-    "required_ingredients": ["雞蛋", "蝦皮"],
-    "optional_ingredients": ["蔥", "韭菜"],
-    "seasonings": ["鹽", "米酒", "油"],
+    "tags": [
+      "快速",
+      "古早味",
+      "配菜"
+    ],
+    "required_ingredients": [
+      "雞蛋",
+      "蝦皮"
+    ],
+    "optional_ingredients": [
+      "蔥",
+      "韭菜"
+    ],
+    "seasonings": [
+      "鹽",
+      "米酒",
+      "油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "雞蛋", "amount": "3 顆" },
-      { "name": "蝦皮", "amount": "2 大匙" },
-      { "name": "蔥", "amount": "1 根，切蔥花（可省略）" }
+      {
+        "name": "雞蛋",
+        "amount": "3 顆"
+      },
+      {
+        "name": "蝦皮",
+        "amount": "2 大匙"
+      },
+      {
+        "name": "蔥",
+        "amount": "1 根，切蔥花（可省略）"
+      }
     ],
     "steps": [
       "蝦皮用清水快速沖一下瀝乾",
@@ -930,14 +1802,33 @@
     "description": "九層塔香氣撲鼻，下飯神器",
     "time_minutes": 8,
     "difficulty": 1,
-    "tags": ["快速", "下飯", "台味"],
-    "required_ingredients": ["雞蛋", "九層塔"],
-    "optional_ingredients": ["蒜頭"],
-    "seasonings": ["鹽", "醬油", "油"],
+    "tags": [
+      "快速",
+      "下飯",
+      "台味"
+    ],
+    "required_ingredients": [
+      "雞蛋",
+      "九層塔"
+    ],
+    "optional_ingredients": [
+      "蒜頭"
+    ],
+    "seasonings": [
+      "鹽",
+      "醬油",
+      "油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "雞蛋", "amount": "3 顆" },
-      { "name": "九層塔", "amount": "1 大把，洗淨切碎" }
+      {
+        "name": "雞蛋",
+        "amount": "3 顆"
+      },
+      {
+        "name": "九層塔",
+        "amount": "1 大把，洗淨切碎"
+      }
     ],
     "steps": [
       "九層塔挑下葉子洗淨，瀝乾切碎",
@@ -957,14 +1848,32 @@
     "description": "洋蔥的甜配上蛋香，溫柔系早餐",
     "time_minutes": 12,
     "difficulty": 1,
-    "tags": ["早餐", "孩子愛", "新手友善"],
-    "required_ingredients": ["雞蛋", "洋蔥"],
+    "tags": [
+      "早餐",
+      "孩子愛",
+      "新手友善"
+    ],
+    "required_ingredients": [
+      "雞蛋",
+      "洋蔥"
+    ],
     "optional_ingredients": [],
-    "seasonings": ["鹽", "黑胡椒", "奶油", "油"],
+    "seasonings": [
+      "鹽",
+      "黑胡椒",
+      "奶油",
+      "油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "雞蛋", "amount": "3 顆" },
-      { "name": "洋蔥", "amount": "半顆，切細丁" }
+      {
+        "name": "雞蛋",
+        "amount": "3 顆"
+      },
+      {
+        "name": "洋蔥",
+        "amount": "半顆，切細丁"
+      }
     ],
     "steps": [
       "洋蔥切細丁",
@@ -983,15 +1892,38 @@
     "description": "黃澄澄的可愛蛋，孩子搶著吃",
     "time_minutes": 10,
     "difficulty": 1,
-    "tags": ["快速", "孩子愛", "便當菜"],
-    "required_ingredients": ["雞蛋", "玉米"],
-    "optional_ingredients": ["蔥", "火腿"],
-    "seasonings": ["鹽", "糖", "油"],
+    "tags": [
+      "快速",
+      "孩子愛",
+      "便當菜"
+    ],
+    "required_ingredients": [
+      "雞蛋",
+      "玉米"
+    ],
+    "optional_ingredients": [
+      "蔥",
+      "火腿"
+    ],
+    "seasonings": [
+      "鹽",
+      "糖",
+      "油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "雞蛋", "amount": "3 顆" },
-      { "name": "玉米粒", "amount": "1 罐（瀝乾）或 1 根新鮮玉米" },
-      { "name": "蔥", "amount": "1 根，切蔥花（可省略）" }
+      {
+        "name": "雞蛋",
+        "amount": "3 顆"
+      },
+      {
+        "name": "玉米粒",
+        "amount": "1 罐（瀝乾）或 1 根新鮮玉米"
+      },
+      {
+        "name": "蔥",
+        "amount": "1 根，切蔥花（可省略）"
+      }
     ],
     "steps": [
       "玉米粒瀝乾水分（罐頭）或新鮮玉米取下玉米粒",
@@ -1010,14 +1942,31 @@
     "description": "台灣國民青菜，三分鐘上桌",
     "time_minutes": 8,
     "difficulty": 1,
-    "tags": ["快速", "配菜", "新手友善"],
-    "required_ingredients": ["地瓜葉"],
+    "tags": [
+      "快速",
+      "配菜",
+      "新手友善"
+    ],
+    "required_ingredients": [
+      "地瓜葉"
+    ],
     "optional_ingredients": [],
-    "seasonings": ["蒜頭", "鹽", "醬油", "油"],
+    "seasonings": [
+      "蒜頭",
+      "鹽",
+      "醬油",
+      "油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "地瓜葉", "amount": "1 把（連嫩梗）" },
-      { "name": "蒜頭", "amount": "5 瓣，拍碎" }
+      {
+        "name": "地瓜葉",
+        "amount": "1 把（連嫩梗）"
+      },
+      {
+        "name": "蒜頭",
+        "amount": "5 瓣，拍碎"
+      }
     ],
     "steps": [
       "地瓜葉挑掉老梗，洗淨瀝乾",
@@ -1036,15 +1985,36 @@
     "description": "清爽脆綠，便當盒不變色的好搭配",
     "time_minutes": 10,
     "difficulty": 1,
-    "tags": ["配菜", "便當菜", "新手友善"],
-    "required_ingredients": ["花椰菜"],
-    "optional_ingredients": ["紅蘿蔔"],
-    "seasonings": ["蒜頭", "鹽", "油"],
+    "tags": [
+      "配菜",
+      "便當菜",
+      "新手友善"
+    ],
+    "required_ingredients": [
+      "花椰菜"
+    ],
+    "optional_ingredients": [
+      "紅蘿蔔"
+    ],
+    "seasonings": [
+      "蒜頭",
+      "鹽",
+      "油"
+    ],
     "servings": "2-3 人份",
     "ingredients_with_amount": [
-      { "name": "白花椰菜或綠花椰菜", "amount": "1 顆，切小朵" },
-      { "name": "蒜頭", "amount": "3 瓣，拍碎" },
-      { "name": "紅蘿蔔", "amount": "幾片（可省略）" }
+      {
+        "name": "白花椰菜或綠花椰菜",
+        "amount": "1 顆，切小朵"
+      },
+      {
+        "name": "蒜頭",
+        "amount": "3 瓣，拍碎"
+      },
+      {
+        "name": "紅蘿蔔",
+        "amount": "幾片（可省略）"
+      }
     ],
     "steps": [
       "花椰菜切小朵，泡鹽水洗淨",
@@ -1063,14 +2033,31 @@
     "description": "便當配菜的萬年常客",
     "time_minutes": 8,
     "difficulty": 1,
-    "tags": ["快速", "配菜", "新手友善"],
-    "required_ingredients": ["A菜"],
+    "tags": [
+      "快速",
+      "配菜",
+      "新手友善"
+    ],
+    "required_ingredients": [
+      "A菜"
+    ],
     "optional_ingredients": [],
-    "seasonings": ["蒜頭", "鹽", "醬油", "油"],
+    "seasonings": [
+      "蒜頭",
+      "鹽",
+      "醬油",
+      "油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "A菜", "amount": "1 把，切段" },
-      { "name": "蒜頭", "amount": "3 瓣，拍碎" }
+      {
+        "name": "A菜",
+        "amount": "1 把，切段"
+      },
+      {
+        "name": "蒜頭",
+        "amount": "3 瓣，拍碎"
+      }
     ],
     "steps": [
       "A菜洗淨切段",
@@ -1089,16 +2076,43 @@
     "description": "古早味便當菜，鹹香有嚼勁",
     "time_minutes": 12,
     "difficulty": 1,
-    "tags": ["古早味", "便當菜", "下飯"],
-    "required_ingredients": ["韭菜", "豆干"],
-    "optional_ingredients": ["豬肉絲", "辣椒"],
-    "seasonings": ["蒜頭", "醬油", "鹽", "油"],
+    "tags": [
+      "古早味",
+      "便當菜",
+      "下飯"
+    ],
+    "required_ingredients": [
+      "韭菜",
+      "豆干"
+    ],
+    "optional_ingredients": [
+      "豬肉絲",
+      "辣椒"
+    ],
+    "seasonings": [
+      "蒜頭",
+      "醬油",
+      "鹽",
+      "油"
+    ],
     "servings": "2-3 人份",
     "ingredients_with_amount": [
-      { "name": "韭菜", "amount": "1 把，切段" },
-      { "name": "五香豆干", "amount": "5 塊，切條" },
-      { "name": "蒜頭", "amount": "3 瓣，拍碎" },
-      { "name": "豬肉絲", "amount": "100g（可省略）" }
+      {
+        "name": "韭菜",
+        "amount": "1 把，切段"
+      },
+      {
+        "name": "五香豆干",
+        "amount": "5 塊，切條"
+      },
+      {
+        "name": "蒜頭",
+        "amount": "3 瓣，拍碎"
+      },
+      {
+        "name": "豬肉絲",
+        "amount": "100g（可省略）"
+      }
     ],
     "steps": [
       "豆干切細條，韭菜切段（梗和葉分開）",
@@ -1118,15 +2132,41 @@
     "description": "金黃豆腐淋上濃郁醬汁，超下飯",
     "time_minutes": 20,
     "difficulty": 1,
-    "tags": ["下飯", "經典", "素食可"],
-    "required_ingredients": ["豆腐"],
-    "optional_ingredients": ["豬絞肉", "蔥", "香菇"],
-    "seasonings": ["醬油", "糖", "蒜頭", "辣椒", "太白粉", "油"],
+    "tags": [
+      "下飯",
+      "經典",
+      "素食可"
+    ],
+    "required_ingredients": [
+      "豆腐"
+    ],
+    "optional_ingredients": [
+      "豬絞肉",
+      "蔥",
+      "香菇"
+    ],
+    "seasonings": [
+      "醬油",
+      "糖",
+      "蒜頭",
+      "辣椒",
+      "太白粉",
+      "油"
+    ],
     "servings": "2-3 人份",
     "ingredients_with_amount": [
-      { "name": "板豆腐", "amount": "1 盒，切厚片" },
-      { "name": "豬絞肉", "amount": "100g（可省略）" },
-      { "name": "蔥", "amount": "1 根，切段" }
+      {
+        "name": "板豆腐",
+        "amount": "1 盒，切厚片"
+      },
+      {
+        "name": "豬絞肉",
+        "amount": "100g（可省略）"
+      },
+      {
+        "name": "蔥",
+        "amount": "1 根，切段"
+      }
     ],
     "steps": [
       "板豆腐切厚片，用紙巾吸乾水分",
@@ -1146,15 +2186,40 @@
     "description": "清爽開胃，10 分鐘就上桌",
     "time_minutes": 10,
     "difficulty": 1,
-    "tags": ["快速", "涼拌", "夏天"],
-    "required_ingredients": ["豆芽菜"],
-    "optional_ingredients": ["紅蘿蔔絲", "韭菜"],
-    "seasonings": ["蒜頭", "醬油", "醋", "糖", "香油", "辣椒"],
+    "tags": [
+      "快速",
+      "涼拌",
+      "夏天"
+    ],
+    "required_ingredients": [
+      "豆芽菜"
+    ],
+    "optional_ingredients": [
+      "紅蘿蔔絲",
+      "韭菜"
+    ],
+    "seasonings": [
+      "蒜頭",
+      "醬油",
+      "醋",
+      "糖",
+      "香油",
+      "辣椒"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "綠豆芽", "amount": "1 大把" },
-      { "name": "紅蘿蔔", "amount": "幾絲（可省略，配色用）" },
-      { "name": "蒜頭", "amount": "3 瓣，切末" }
+      {
+        "name": "綠豆芽",
+        "amount": "1 大把"
+      },
+      {
+        "name": "紅蘿蔔",
+        "amount": "幾絲（可省略，配色用）"
+      },
+      {
+        "name": "蒜頭",
+        "amount": "3 瓣，切末"
+      }
     ],
     "steps": [
       "豆芽菜挑掉根鬚（懶得挑就跳過）",
@@ -1173,15 +2238,37 @@
     "description": "脆爽鹹香，下飯一級棒",
     "time_minutes": 12,
     "difficulty": 1,
-    "tags": ["下飯", "便當菜", "配菜"],
-    "required_ingredients": ["四季豆"],
-    "optional_ingredients": ["豬絞肉"],
-    "seasonings": ["蒜頭", "醬油", "鹽", "油"],
+    "tags": [
+      "下飯",
+      "便當菜",
+      "配菜"
+    ],
+    "required_ingredients": [
+      "四季豆"
+    ],
+    "optional_ingredients": [
+      "豬絞肉"
+    ],
+    "seasonings": [
+      "蒜頭",
+      "醬油",
+      "鹽",
+      "油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "四季豆", "amount": "1 把，撕掉粗筋" },
-      { "name": "蒜頭", "amount": "5 瓣，拍碎" },
-      { "name": "豬絞肉", "amount": "80g（可省略）" }
+      {
+        "name": "四季豆",
+        "amount": "1 把，撕掉粗筋"
+      },
+      {
+        "name": "蒜頭",
+        "amount": "5 瓣，拍碎"
+      },
+      {
+        "name": "豬絞肉",
+        "amount": "80g（可省略）"
+      }
     ],
     "steps": [
       "四季豆撕掉兩端粗筋，切段（約 5cm）",
@@ -1200,14 +2287,34 @@
     "description": "夏天養生菜，淋柴魚醬油就好吃",
     "time_minutes": 10,
     "difficulty": 1,
-    "tags": ["快速", "涼拌", "夏天", "健康"],
-    "required_ingredients": ["秋葵"],
-    "optional_ingredients": ["柴魚片"],
-    "seasonings": ["醬油", "醋", "鹽", "香油"],
+    "tags": [
+      "快速",
+      "涼拌",
+      "夏天",
+      "健康"
+    ],
+    "required_ingredients": [
+      "秋葵"
+    ],
+    "optional_ingredients": [
+      "柴魚片"
+    ],
+    "seasonings": [
+      "醬油",
+      "醋",
+      "鹽",
+      "香油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "秋葵", "amount": "1 把（10-12 根）" },
-      { "name": "柴魚片", "amount": "1 把（可省略）" }
+      {
+        "name": "秋葵",
+        "amount": "1 把（10-12 根）"
+      },
+      {
+        "name": "柴魚片",
+        "amount": "1 把（可省略）"
+      }
     ],
     "steps": [
       "秋葵用鹽搓掉表面細毛，沖洗乾淨",
@@ -1226,15 +2333,39 @@
     "description": "茄子蒸到柔軟，蒜醬一拌就香",
     "time_minutes": 20,
     "difficulty": 1,
-    "tags": ["涼拌", "夏天", "新手友善"],
-    "required_ingredients": ["茄子"],
-    "optional_ingredients": ["蔥"],
-    "seasonings": ["蒜頭", "醬油", "醋", "糖", "香油", "辣椒"],
+    "tags": [
+      "涼拌",
+      "夏天",
+      "新手友善"
+    ],
+    "required_ingredients": [
+      "茄子"
+    ],
+    "optional_ingredients": [
+      "蔥"
+    ],
+    "seasonings": [
+      "蒜頭",
+      "醬油",
+      "醋",
+      "糖",
+      "香油",
+      "辣椒"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "茄子", "amount": "2 根" },
-      { "name": "蒜頭", "amount": "5 瓣，切末（蒜要多）" },
-      { "name": "蔥", "amount": "1 根，切蔥花" }
+      {
+        "name": "茄子",
+        "amount": "2 根"
+      },
+      {
+        "name": "蒜頭",
+        "amount": "5 瓣，切末（蒜要多）"
+      },
+      {
+        "name": "蔥",
+        "amount": "1 根，切蔥花"
+      }
     ],
     "steps": [
       "茄子整根放電鍋，外鍋 1 杯水蒸 12 分鐘",
@@ -1253,15 +2384,40 @@
     "description": "白菜燉得入口即化，醬汁拌飯一級棒",
     "time_minutes": 30,
     "difficulty": 1,
-    "tags": ["燉煮", "下飯", "古早味"],
-    "required_ingredients": ["大白菜"],
-    "optional_ingredients": ["蝦米", "香菇", "豬肉絲"],
-    "seasonings": ["醬油", "糖", "蒜頭", "白胡椒粉", "油"],
+    "tags": [
+      "燉煮",
+      "下飯",
+      "古早味"
+    ],
+    "required_ingredients": [
+      "大白菜"
+    ],
+    "optional_ingredients": [
+      "蝦米",
+      "香菇",
+      "豬肉絲"
+    ],
+    "seasonings": [
+      "醬油",
+      "糖",
+      "蒜頭",
+      "白胡椒粉",
+      "油"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "大白菜", "amount": "半顆，切大片" },
-      { "name": "蝦米", "amount": "2 大匙，泡軟（可省略）" },
-      { "name": "乾香菇", "amount": "3 朵，泡軟切絲（可省略）" }
+      {
+        "name": "大白菜",
+        "amount": "半顆，切大片"
+      },
+      {
+        "name": "蝦米",
+        "amount": "2 大匙，泡軟（可省略）"
+      },
+      {
+        "name": "乾香菇",
+        "amount": "3 朵，泡軟切絲（可省略）"
+      }
     ],
     "steps": [
       "白菜切大片，菜梗和菜葉分開",
@@ -1281,17 +2437,50 @@
     "description": "大顆肉丸燉到軟嫩，肉汁飽滿",
     "time_minutes": 60,
     "difficulty": 2,
-    "tags": ["澎湃", "下飯", "宴客"],
-    "required_ingredients": ["豬絞肉", "大白菜"],
-    "optional_ingredients": ["馬蹄", "蔥", "薑"],
-    "seasonings": ["醬油", "糖", "米酒", "太白粉", "蛋", "油"],
+    "tags": [
+      "澎湃",
+      "下飯",
+      "宴客"
+    ],
+    "required_ingredients": [
+      "豬絞肉",
+      "大白菜"
+    ],
+    "optional_ingredients": [
+      "馬蹄",
+      "蔥",
+      "薑"
+    ],
+    "seasonings": [
+      "醬油",
+      "糖",
+      "米酒",
+      "太白粉",
+      "蛋",
+      "油"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "豬絞肉", "amount": "500g（肥瘦比 3:7）" },
-      { "name": "大白菜", "amount": "半顆，切大片" },
-      { "name": "雞蛋", "amount": "1 顆" },
-      { "name": "蔥", "amount": "2 根，切蔥花" },
-      { "name": "薑", "amount": "1 小塊，切末" }
+      {
+        "name": "豬絞肉",
+        "amount": "500g（肥瘦比 3:7）"
+      },
+      {
+        "name": "大白菜",
+        "amount": "半顆，切大片"
+      },
+      {
+        "name": "雞蛋",
+        "amount": "1 顆"
+      },
+      {
+        "name": "蔥",
+        "amount": "2 根，切蔥花"
+      },
+      {
+        "name": "薑",
+        "amount": "1 小塊，切末"
+      }
     ],
     "steps": [
       "絞肉加蔥末、薑末、1 大匙醬油、1 大匙米酒、1 顆蛋、2 大匙太白粉",
@@ -1312,15 +2501,40 @@
     "description": "蔥香撲鼻，醬汁拌飯吃光光",
     "time_minutes": 30,
     "difficulty": 2,
-    "tags": ["下飯", "經典", "台菜"],
-    "required_ingredients": ["雞肉", "蔥"],
-    "optional_ingredients": ["薑", "辣椒"],
-    "seasonings": ["醬油", "糖", "米酒", "蒜頭", "油"],
+    "tags": [
+      "下飯",
+      "經典",
+      "台菜"
+    ],
+    "required_ingredients": [
+      "雞肉",
+      "蔥"
+    ],
+    "optional_ingredients": [
+      "薑",
+      "辣椒"
+    ],
+    "seasonings": [
+      "醬油",
+      "糖",
+      "米酒",
+      "蒜頭",
+      "油"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "雞腿肉", "amount": "2 隻，切塊" },
-      { "name": "蔥", "amount": "5 根，切段（蔥要多）" },
-      { "name": "薑", "amount": "幾片" }
+      {
+        "name": "雞腿肉",
+        "amount": "2 隻，切塊"
+      },
+      {
+        "name": "蔥",
+        "amount": "5 根，切段（蔥要多）"
+      },
+      {
+        "name": "薑",
+        "amount": "幾片"
+      }
     ],
     "steps": [
       "雞腿肉切塊，蔥切段（蔥白蔥綠分開）",
@@ -1340,15 +2554,39 @@
     "description": "原味雞肉鮮嫩，沾醬決定一切",
     "time_minutes": 40,
     "difficulty": 1,
-    "tags": ["經典", "宴客", "宴客"],
-    "required_ingredients": ["雞肉"],
-    "optional_ingredients": ["蔥", "薑"],
-    "seasonings": ["鹽", "薑", "蔥", "醬油", "香油"],
+    "tags": [
+      "經典",
+      "宴客",
+      "宴客"
+    ],
+    "required_ingredients": [
+      "雞肉"
+    ],
+    "optional_ingredients": [
+      "蔥",
+      "薑"
+    ],
+    "seasonings": [
+      "鹽",
+      "薑",
+      "蔥",
+      "醬油",
+      "香油"
+    ],
     "servings": "4 人份",
     "ingredients_with_amount": [
-      { "name": "全雞或雞腿", "amount": "1 隻" },
-      { "name": "薑", "amount": "1 大塊，拍裂" },
-      { "name": "蔥", "amount": "3 根，打結" }
+      {
+        "name": "全雞或雞腿",
+        "amount": "1 隻"
+      },
+      {
+        "name": "薑",
+        "amount": "1 大塊，拍裂"
+      },
+      {
+        "name": "蔥",
+        "amount": "3 根，打結"
+      }
     ],
     "steps": [
       "雞肉表面抹鹽靜置 15 分鐘",
@@ -1368,14 +2606,34 @@
     "description": "外酥內嫩多汁，超下飯",
     "time_minutes": 25,
     "difficulty": 1,
-    "tags": ["新手友善", "便當菜", "下飯"],
-    "required_ingredients": ["豬排"],
+    "tags": [
+      "新手友善",
+      "便當菜",
+      "下飯"
+    ],
+    "required_ingredients": [
+      "豬排"
+    ],
     "optional_ingredients": [],
-    "seasonings": ["醬油", "米酒", "蒜頭", "糖", "黑胡椒", "太白粉", "油"],
+    "seasonings": [
+      "醬油",
+      "米酒",
+      "蒜頭",
+      "糖",
+      "黑胡椒",
+      "太白粉",
+      "油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "梅花豬排或里肌豬排", "amount": "2 片（約 300g）" },
-      { "name": "蒜頭", "amount": "3 瓣，拍碎" }
+      {
+        "name": "梅花豬排或里肌豬排",
+        "amount": "2 片（約 300g）"
+      },
+      {
+        "name": "蒜頭",
+        "amount": "3 瓣，拍碎"
+      }
     ],
     "steps": [
       "豬排用刀背或肉錘把表面拍鬆",
@@ -1394,15 +2652,42 @@
     "description": "川菜經典，五花肉鹹香爆下飯",
     "time_minutes": 25,
     "difficulty": 2,
-    "tags": ["下飯", "經典", "辣"],
-    "required_ingredients": ["豬肉", "高麗菜"],
-    "optional_ingredients": ["青椒", "蔥"],
-    "seasonings": ["豆瓣醬", "甜麵醬", "醬油", "糖", "蒜頭", "薑", "油"],
+    "tags": [
+      "下飯",
+      "經典",
+      "辣"
+    ],
+    "required_ingredients": [
+      "豬肉",
+      "高麗菜"
+    ],
+    "optional_ingredients": [
+      "青椒",
+      "蔥"
+    ],
+    "seasonings": [
+      "豆瓣醬",
+      "甜麵醬",
+      "醬油",
+      "糖",
+      "蒜頭",
+      "薑",
+      "油"
+    ],
     "servings": "2-3 人份",
     "ingredients_with_amount": [
-      { "name": "五花肉", "amount": "300g" },
-      { "name": "高麗菜", "amount": "1/4 顆，手撕成片" },
-      { "name": "豆瓣醬", "amount": "1 大匙" }
+      {
+        "name": "五花肉",
+        "amount": "300g"
+      },
+      {
+        "name": "高麗菜",
+        "amount": "1/4 顆，手撕成片"
+      },
+      {
+        "name": "豆瓣醬",
+        "amount": "1 大匙"
+      }
     ],
     "steps": [
       "五花肉整塊放冷水鍋，加薑片、米酒煮 15 分鐘",
@@ -1422,15 +2707,42 @@
     "description": "餐廳熱炒經典，鹹香入味",
     "time_minutes": 15,
     "difficulty": 2,
-    "tags": ["快速", "下飯", "經典"],
-    "required_ingredients": ["豬肉", "青椒"],
-    "optional_ingredients": ["紅蘿蔔", "竹筍"],
-    "seasonings": ["醬油", "蠔油", "米酒", "太白粉", "蒜頭", "糖", "油"],
+    "tags": [
+      "快速",
+      "下飯",
+      "經典"
+    ],
+    "required_ingredients": [
+      "豬肉",
+      "青椒"
+    ],
+    "optional_ingredients": [
+      "紅蘿蔔",
+      "竹筍"
+    ],
+    "seasonings": [
+      "醬油",
+      "蠔油",
+      "米酒",
+      "太白粉",
+      "蒜頭",
+      "糖",
+      "油"
+    ],
     "servings": "2-3 人份",
     "ingredients_with_amount": [
-      { "name": "豬里肌或梅花肉", "amount": "250g，切細絲" },
-      { "name": "青椒", "amount": "2 顆，去籽切絲" },
-      { "name": "紅蘿蔔", "amount": "幾絲（可省略）" }
+      {
+        "name": "豬里肌或梅花肉",
+        "amount": "250g，切細絲"
+      },
+      {
+        "name": "青椒",
+        "amount": "2 顆，去籽切絲"
+      },
+      {
+        "name": "紅蘿蔔",
+        "amount": "幾絲（可省略）"
+      }
     ],
     "steps": [
       "肉絲用 1 大匙醬油、1 大匙米酒、1 小匙太白粉抓醃 10 分鐘",
@@ -1450,14 +2762,35 @@
     "description": "甜鹹閃亮亮，孩子吃到舔手指",
     "time_minutes": 35,
     "difficulty": 1,
-    "tags": ["孩子愛", "便當菜", "宴客"],
-    "required_ingredients": ["雞翅"],
-    "optional_ingredients": ["蒜頭"],
-    "seasonings": ["醬油", "蜂蜜", "米酒", "蒜頭", "薑", "油"],
+    "tags": [
+      "孩子愛",
+      "便當菜",
+      "宴客"
+    ],
+    "required_ingredients": [
+      "雞翅"
+    ],
+    "optional_ingredients": [
+      "蒜頭"
+    ],
+    "seasonings": [
+      "醬油",
+      "蜂蜜",
+      "米酒",
+      "蒜頭",
+      "薑",
+      "油"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "二節雞翅", "amount": "10 隻" },
-      { "name": "蒜頭", "amount": "5 瓣，拍碎" }
+      {
+        "name": "二節雞翅",
+        "amount": "10 隻"
+      },
+      {
+        "name": "蒜頭",
+        "amount": "5 瓣，拍碎"
+      }
     ],
     "steps": [
       "雞翅用叉子戳幾個洞幫助入味",
@@ -1477,15 +2810,38 @@
     "description": "廚房新手必殺技，零失敗甜鹹",
     "time_minutes": 30,
     "difficulty": 1,
-    "tags": ["新手友善", "孩子愛", "便當菜"],
-    "required_ingredients": ["雞翅"],
-    "optional_ingredients": ["薑"],
-    "seasonings": ["可樂", "醬油", "米酒", "薑", "油"],
+    "tags": [
+      "新手友善",
+      "孩子愛",
+      "便當菜"
+    ],
+    "required_ingredients": [
+      "雞翅"
+    ],
+    "optional_ingredients": [
+      "薑"
+    ],
+    "seasonings": [
+      "可樂",
+      "醬油",
+      "米酒",
+      "薑",
+      "油"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "二節雞翅", "amount": "10 隻" },
-      { "name": "可樂", "amount": "1 罐（330ml）" },
-      { "name": "薑", "amount": "幾片" }
+      {
+        "name": "二節雞翅",
+        "amount": "10 隻"
+      },
+      {
+        "name": "可樂",
+        "amount": "1 罐（330ml）"
+      },
+      {
+        "name": "薑",
+        "amount": "幾片"
+      }
     ],
     "steps": [
       "雞翅用熱水汆燙 1 分鐘撈起",
@@ -1504,15 +2860,40 @@
     "description": "日式定食經典，薑香撲鼻",
     "time_minutes": 20,
     "difficulty": 1,
-    "tags": ["日式", "下飯", "便當菜"],
-    "required_ingredients": ["豬肉", "薑"],
-    "optional_ingredients": ["洋蔥"],
-    "seasonings": ["醬油", "味醂", "糖", "米酒", "薑", "油"],
+    "tags": [
+      "日式",
+      "下飯",
+      "便當菜"
+    ],
+    "required_ingredients": [
+      "豬肉",
+      "薑"
+    ],
+    "optional_ingredients": [
+      "洋蔥"
+    ],
+    "seasonings": [
+      "醬油",
+      "味醂",
+      "糖",
+      "米酒",
+      "薑",
+      "油"
+    ],
     "servings": "2-3 人份",
     "ingredients_with_amount": [
-      { "name": "豬肉片（火鍋肉片）", "amount": "300g" },
-      { "name": "薑", "amount": "1 大塊，磨成泥" },
-      { "name": "洋蔥", "amount": "半顆，切絲（可省略）" }
+      {
+        "name": "豬肉片（火鍋肉片）",
+        "amount": "300g"
+      },
+      {
+        "name": "薑",
+        "amount": "1 大塊，磨成泥"
+      },
+      {
+        "name": "洋蔥",
+        "amount": "半顆，切絲（可省略）"
+      }
     ],
     "steps": [
       "薑磨成泥（份量要多才香）",
@@ -1531,16 +2912,48 @@
     "description": "牛腱燉到入口即化，濃郁醬香",
     "time_minutes": 90,
     "difficulty": 2,
-    "tags": ["燉煮", "宴客", "經典"],
-    "required_ingredients": ["牛肉"],
-    "optional_ingredients": ["紅蘿蔔", "白蘿蔔", "番茄"],
-    "seasonings": ["醬油", "豆瓣醬", "冰糖", "米酒", "薑", "蔥", "蒜頭", "八角", "油"],
+    "tags": [
+      "燉煮",
+      "宴客",
+      "經典"
+    ],
+    "required_ingredients": [
+      "牛肉"
+    ],
+    "optional_ingredients": [
+      "紅蘿蔔",
+      "白蘿蔔",
+      "番茄"
+    ],
+    "seasonings": [
+      "醬油",
+      "豆瓣醬",
+      "冰糖",
+      "米酒",
+      "薑",
+      "蔥",
+      "蒜頭",
+      "八角",
+      "油"
+    ],
     "servings": "4-6 人份",
     "ingredients_with_amount": [
-      { "name": "牛腱或牛肋條", "amount": "800g，切大塊" },
-      { "name": "紅蘿蔔或白蘿蔔", "amount": "1 根，切塊（可省略）" },
-      { "name": "薑", "amount": "1 塊，拍裂" },
-      { "name": "八角", "amount": "2 顆" }
+      {
+        "name": "牛腱或牛肋條",
+        "amount": "800g，切大塊"
+      },
+      {
+        "name": "紅蘿蔔或白蘿蔔",
+        "amount": "1 根，切塊（可省略）"
+      },
+      {
+        "name": "薑",
+        "amount": "1 塊，拍裂"
+      },
+      {
+        "name": "八角",
+        "amount": "2 顆"
+      }
     ],
     "steps": [
       "牛肉切大塊，冷水下鍋汆燙 5 分鐘撈起洗淨",
@@ -1561,16 +2974,46 @@
     "description": "醬香濃郁，整尾魚都吃光光",
     "time_minutes": 25,
     "difficulty": 2,
-    "tags": ["下飯", "宴客", "經典"],
-    "required_ingredients": ["魚"],
-    "optional_ingredients": ["蔥", "薑", "辣椒"],
-    "seasonings": ["醬油", "糖", "米酒", "蒜頭", "薑", "蔥", "油"],
+    "tags": [
+      "下飯",
+      "宴客",
+      "經典"
+    ],
+    "required_ingredients": [
+      "魚"
+    ],
+    "optional_ingredients": [
+      "蔥",
+      "薑",
+      "辣椒"
+    ],
+    "seasonings": [
+      "醬油",
+      "糖",
+      "米酒",
+      "蒜頭",
+      "薑",
+      "蔥",
+      "油"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "整尾魚（鯽魚、吳郭魚等）", "amount": "1 尾" },
-      { "name": "蔥", "amount": "3 根，切段" },
-      { "name": "薑", "amount": "幾片" },
-      { "name": "蒜頭", "amount": "3 瓣，拍碎" }
+      {
+        "name": "整尾魚（鯽魚、吳郭魚等）",
+        "amount": "1 尾"
+      },
+      {
+        "name": "蔥",
+        "amount": "3 根，切段"
+      },
+      {
+        "name": "薑",
+        "amount": "幾片"
+      },
+      {
+        "name": "蒜頭",
+        "amount": "3 瓣，拍碎"
+      }
     ],
     "steps": [
       "魚洗淨擦乾，魚身劃幾刀幫助入味",
@@ -1590,14 +3033,33 @@
     "description": "外酥內嫩，灑點鹽就好吃",
     "time_minutes": 15,
     "difficulty": 1,
-    "tags": ["新手友善", "便當菜", "健康"],
-    "required_ingredients": ["鮭魚"],
-    "optional_ingredients": ["檸檬"],
-    "seasonings": ["鹽", "黑胡椒", "米酒", "油"],
+    "tags": [
+      "新手友善",
+      "便當菜",
+      "健康"
+    ],
+    "required_ingredients": [
+      "鮭魚"
+    ],
+    "optional_ingredients": [
+      "檸檬"
+    ],
+    "seasonings": [
+      "鹽",
+      "黑胡椒",
+      "米酒",
+      "油"
+    ],
     "servings": "1-2 人份",
     "ingredients_with_amount": [
-      { "name": "鮭魚菲力", "amount": "1 片（約 200g）" },
-      { "name": "檸檬", "amount": "幾片（可省略）" }
+      {
+        "name": "鮭魚菲力",
+        "amount": "1 片（約 200g）"
+      },
+      {
+        "name": "檸檬",
+        "amount": "幾片（可省略）"
+      }
     ],
     "steps": [
       "鮭魚兩面抹少許鹽和米酒，靜置 10 分鐘",
@@ -1616,15 +3078,40 @@
     "description": "辣椒蒜末爆香，連殼都好吃",
     "time_minutes": 15,
     "difficulty": 2,
-    "tags": ["下飯", "經典", "辣"],
-    "required_ingredients": ["蝦子"],
-    "optional_ingredients": ["蔥", "辣椒"],
-    "seasonings": ["蒜頭", "辣椒", "鹽", "白胡椒粉", "太白粉", "油"],
+    "tags": [
+      "下飯",
+      "經典",
+      "辣"
+    ],
+    "required_ingredients": [
+      "蝦子"
+    ],
+    "optional_ingredients": [
+      "蔥",
+      "辣椒"
+    ],
+    "seasonings": [
+      "蒜頭",
+      "辣椒",
+      "鹽",
+      "白胡椒粉",
+      "太白粉",
+      "油"
+    ],
     "servings": "2-3 人份",
     "ingredients_with_amount": [
-      { "name": "白蝦", "amount": "300g（剪鬚去腸泥）" },
-      { "name": "蒜頭", "amount": "5 瓣，切末" },
-      { "name": "辣椒", "amount": "1 根，切末" }
+      {
+        "name": "白蝦",
+        "amount": "300g（剪鬚去腸泥）"
+      },
+      {
+        "name": "蒜頭",
+        "amount": "5 瓣，切末"
+      },
+      {
+        "name": "辣椒",
+        "amount": "1 根，切末"
+      }
     ],
     "steps": [
       "蝦子洗淨剪鬚，背部開刀去腸泥",
@@ -1643,15 +3130,39 @@
     "description": "夏天必煮，蛤蜊鮮味全融進絲瓜",
     "time_minutes": 15,
     "difficulty": 1,
-    "tags": ["快速", "夏天", "海鮮"],
-    "required_ingredients": ["蛤蜊", "絲瓜"],
-    "optional_ingredients": ["薑絲", "枸杞"],
-    "seasonings": ["薑", "鹽", "米酒", "油"],
+    "tags": [
+      "快速",
+      "夏天",
+      "海鮮"
+    ],
+    "required_ingredients": [
+      "蛤蜊",
+      "絲瓜"
+    ],
+    "optional_ingredients": [
+      "薑絲",
+      "枸杞"
+    ],
+    "seasonings": [
+      "薑",
+      "鹽",
+      "米酒",
+      "油"
+    ],
     "servings": "2-3 人份",
     "ingredients_with_amount": [
-      { "name": "蛤蜊", "amount": "300g（吐沙過）" },
-      { "name": "絲瓜", "amount": "1 根，去皮切塊" },
-      { "name": "薑絲", "amount": "1 小把" }
+      {
+        "name": "蛤蜊",
+        "amount": "300g（吐沙過）"
+      },
+      {
+        "name": "絲瓜",
+        "amount": "1 根，去皮切塊"
+      },
+      {
+        "name": "薑絲",
+        "amount": "1 小把"
+      }
     ],
     "steps": [
       "絲瓜去皮切滾刀塊",
@@ -1671,14 +3182,33 @@
     "description": "外酥內嫩多汁，便當經典",
     "time_minutes": 20,
     "difficulty": 1,
-    "tags": ["便當菜", "新手友善", "日式"],
-    "required_ingredients": ["鯖魚"],
-    "optional_ingredients": ["檸檬", "白蘿蔔泥"],
-    "seasonings": ["鹽", "米酒", "黑胡椒"],
+    "tags": [
+      "便當菜",
+      "新手友善",
+      "日式"
+    ],
+    "required_ingredients": [
+      "鯖魚"
+    ],
+    "optional_ingredients": [
+      "檸檬",
+      "白蘿蔔泥"
+    ],
+    "seasonings": [
+      "鹽",
+      "米酒",
+      "黑胡椒"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "薄鹽鯖魚（市售）", "amount": "1 片" },
-      { "name": "檸檬", "amount": "幾片（可省略）" }
+      {
+        "name": "薄鹽鯖魚（市售）",
+        "amount": "1 片"
+      },
+      {
+        "name": "檸檬",
+        "amount": "幾片（可省略）"
+      }
     ],
     "steps": [
       "鯖魚從冷凍取出退冰，用紙巾吸乾水分",
@@ -1697,17 +3227,51 @@
     "description": "一鍋滿滿料，暖胃又療癒",
     "time_minutes": 40,
     "difficulty": 1,
-    "tags": ["主食", "海鮮", "宵夜"],
-    "required_ingredients": ["米飯", "蝦子", "蛤蜊"],
-    "optional_ingredients": ["透抽", "魚肉", "蔥", "薑絲", "香菜"],
-    "seasonings": ["鹽", "白胡椒粉", "米酒", "薑", "香油"],
+    "tags": [
+      "主食",
+      "海鮮",
+      "宵夜"
+    ],
+    "required_ingredients": [
+      "蝦子",
+      "蛤蜊"
+    ],
+    "optional_ingredients": [
+      "透抽",
+      "魚肉",
+      "蔥",
+      "薑絲",
+      "香菜"
+    ],
+    "seasonings": [
+      "鹽",
+      "白胡椒粉",
+      "米酒",
+      "薑",
+      "香油"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "白米", "amount": "1 杯" },
-      { "name": "蝦子", "amount": "10 隻" },
-      { "name": "蛤蜊", "amount": "300g（吐沙過）" },
-      { "name": "薑絲", "amount": "1 小把" },
-      { "name": "蔥", "amount": "1 根，切蔥花" }
+      {
+        "name": "白米",
+        "amount": "1 杯"
+      },
+      {
+        "name": "蝦子",
+        "amount": "10 隻"
+      },
+      {
+        "name": "蛤蜊",
+        "amount": "300g（吐沙過）"
+      },
+      {
+        "name": "薑絲",
+        "amount": "1 小把"
+      },
+      {
+        "name": "蔥",
+        "amount": "1 根，切蔥花"
+      }
     ],
     "steps": [
       "白米洗淨，加 8 杯水煮滾",
@@ -1726,16 +3290,44 @@
     "description": "九層塔香+透抽脆彈，下酒一級棒",
     "time_minutes": 20,
     "difficulty": 2,
-    "tags": ["下飯", "經典", "台菜"],
-    "required_ingredients": ["透抽", "九層塔"],
-    "optional_ingredients": ["辣椒"],
-    "seasonings": ["蒜頭", "薑", "醬油", "麻油", "米酒", "糖"],
+    "tags": [
+      "下飯",
+      "經典",
+      "台菜"
+    ],
+    "required_ingredients": [
+      "透抽",
+      "九層塔"
+    ],
+    "optional_ingredients": [
+      "辣椒"
+    ],
+    "seasonings": [
+      "蒜頭",
+      "薑",
+      "醬油",
+      "麻油",
+      "米酒",
+      "糖"
+    ],
     "servings": "2-3 人份",
     "ingredients_with_amount": [
-      { "name": "透抽（中卷）", "amount": "1 隻，切圈" },
-      { "name": "九層塔", "amount": "1 大把" },
-      { "name": "薑", "amount": "幾片" },
-      { "name": "蒜頭", "amount": "整顆 1 球" }
+      {
+        "name": "透抽（中卷）",
+        "amount": "1 隻，切圈"
+      },
+      {
+        "name": "九層塔",
+        "amount": "1 大把"
+      },
+      {
+        "name": "薑",
+        "amount": "幾片"
+      },
+      {
+        "name": "蒜頭",
+        "amount": "整顆 1 球"
+      }
     ],
     "steps": [
       "透抽洗淨切圈",
@@ -1755,16 +3347,42 @@
     "description": "酸甜口感，蝦球裹滿美乃滋",
     "time_minutes": 25,
     "difficulty": 2,
-    "tags": ["孩子愛", "宴客", "甜鹹"],
-    "required_ingredients": ["蝦仁", "鳳梨"],
+    "tags": [
+      "孩子愛",
+      "宴客",
+      "甜鹹"
+    ],
+    "required_ingredients": [
+      "蝦仁",
+      "鳳梨"
+    ],
     "optional_ingredients": [],
-    "seasonings": ["美乃滋", "煉乳", "太白粉", "鹽", "米酒", "油"],
+    "seasonings": [
+      "美乃滋",
+      "煉乳",
+      "太白粉",
+      "鹽",
+      "米酒",
+      "油"
+    ],
     "servings": "2-3 人份",
     "ingredients_with_amount": [
-      { "name": "草蝦仁", "amount": "300g" },
-      { "name": "鳳梨", "amount": "幾片，切塊" },
-      { "name": "美乃滋", "amount": "3 大匙" },
-      { "name": "煉乳", "amount": "1 大匙（沒有用糖代替）" }
+      {
+        "name": "草蝦仁",
+        "amount": "300g"
+      },
+      {
+        "name": "鳳梨",
+        "amount": "幾片，切塊"
+      },
+      {
+        "name": "美乃滋",
+        "amount": "3 大匙"
+      },
+      {
+        "name": "煉乳",
+        "amount": "1 大匙（沒有用糖代替）"
+      }
     ],
     "steps": [
       "蝦仁開背去腸泥，加少許鹽、米酒抓醃",
@@ -1784,16 +3402,45 @@
     "description": "濃郁香甜，孩子最愛的暖胃湯",
     "time_minutes": 25,
     "difficulty": 1,
-    "tags": ["孩子愛", "湯品", "西式"],
-    "required_ingredients": ["玉米", "雞蛋"],
-    "optional_ingredients": ["火腿", "馬鈴薯"],
-    "seasonings": ["鹽", "黑胡椒", "奶油", "麵粉", "牛奶", "太白粉"],
+    "tags": [
+      "孩子愛",
+      "湯品",
+      "西式"
+    ],
+    "required_ingredients": [
+      "玉米",
+      "雞蛋"
+    ],
+    "optional_ingredients": [
+      "火腿",
+      "馬鈴薯"
+    ],
+    "seasonings": [
+      "鹽",
+      "黑胡椒",
+      "奶油",
+      "麵粉",
+      "牛奶",
+      "太白粉"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "玉米粒", "amount": "1 罐（瀝乾）" },
-      { "name": "玉米醬罐頭", "amount": "1 罐（可省略，但有更濃）" },
-      { "name": "雞蛋", "amount": "1 顆，打散" },
-      { "name": "牛奶", "amount": "1 杯" }
+      {
+        "name": "玉米粒",
+        "amount": "1 罐（瀝乾）"
+      },
+      {
+        "name": "玉米醬罐頭",
+        "amount": "1 罐（可省略，但有更濃）"
+      },
+      {
+        "name": "雞蛋",
+        "amount": "1 顆，打散"
+      },
+      {
+        "name": "牛奶",
+        "amount": "1 杯"
+      }
     ],
     "steps": [
       "鍋裡放奶油融化，加 2 大匙麵粉炒成糊（白醬基底）",
@@ -1813,15 +3460,39 @@
     "description": "10 分鐘上桌的暖胃簡單湯",
     "time_minutes": 10,
     "difficulty": 1,
-    "tags": ["快速", "湯品", "新手友善"],
-    "required_ingredients": ["紫菜", "雞蛋"],
-    "optional_ingredients": ["蔥", "蝦皮"],
-    "seasonings": ["鹽", "醬油", "白胡椒粉", "香油"],
+    "tags": [
+      "快速",
+      "湯品",
+      "新手友善"
+    ],
+    "required_ingredients": [
+      "紫菜",
+      "雞蛋"
+    ],
+    "optional_ingredients": [
+      "蔥",
+      "蝦皮"
+    ],
+    "seasonings": [
+      "鹽",
+      "醬油",
+      "白胡椒粉",
+      "香油"
+    ],
     "servings": "2-3 人份",
     "ingredients_with_amount": [
-      { "name": "紫菜（壽司用片狀或乾燥）", "amount": "1 片或 1 把" },
-      { "name": "雞蛋", "amount": "1 顆，打散" },
-      { "name": "蔥", "amount": "1 根，切蔥花" }
+      {
+        "name": "紫菜（壽司用片狀或乾燥）",
+        "amount": "1 片或 1 把"
+      },
+      {
+        "name": "雞蛋",
+        "amount": "1 顆，打散"
+      },
+      {
+        "name": "蔥",
+        "amount": "1 根，切蔥花"
+      }
     ],
     "steps": [
       "紫菜用手撕成小片放碗裡",
@@ -1841,16 +3512,42 @@
     "description": "日式定食必備，溫柔暖胃",
     "time_minutes": 15,
     "difficulty": 1,
-    "tags": ["日式", "湯品", "新手友善"],
-    "required_ingredients": ["豆腐"],
-    "optional_ingredients": ["海帶芽", "蔥", "蛤蜊"],
-    "seasonings": ["味噌", "柴魚高湯", "蔥"],
+    "tags": [
+      "日式",
+      "湯品",
+      "新手友善"
+    ],
+    "required_ingredients": [
+      "豆腐"
+    ],
+    "optional_ingredients": [
+      "海帶芽",
+      "蔥",
+      "蛤蜊"
+    ],
+    "seasonings": [
+      "味噌",
+      "柴魚高湯",
+      "蔥"
+    ],
     "servings": "3 人份",
     "ingredients_with_amount": [
-      { "name": "嫩豆腐", "amount": "半盒，切丁" },
-      { "name": "海帶芽（乾燥）", "amount": "1 大匙（可省略）" },
-      { "name": "味噌", "amount": "2 大匙" },
-      { "name": "蔥", "amount": "1 根，切蔥花" }
+      {
+        "name": "嫩豆腐",
+        "amount": "半盒，切丁"
+      },
+      {
+        "name": "海帶芽（乾燥）",
+        "amount": "1 大匙（可省略）"
+      },
+      {
+        "name": "味噌",
+        "amount": "2 大匙"
+      },
+      {
+        "name": "蔥",
+        "amount": "1 根，切蔥花"
+      }
     ],
     "steps": [
       "海帶芽用冷水泡軟",
@@ -1871,15 +3568,39 @@
     "description": "巷口小吃店的家常湯",
     "time_minutes": 15,
     "difficulty": 1,
-    "tags": ["快速", "湯品", "新手友善"],
-    "required_ingredients": ["貢丸"],
-    "optional_ingredients": ["大白菜", "豆皮", "冬粉"],
-    "seasonings": ["鹽", "白胡椒粉", "芹菜", "香油"],
+    "tags": [
+      "快速",
+      "湯品",
+      "新手友善"
+    ],
+    "required_ingredients": [
+      "貢丸"
+    ],
+    "optional_ingredients": [
+      "大白菜",
+      "豆皮",
+      "冬粉"
+    ],
+    "seasonings": [
+      "鹽",
+      "白胡椒粉",
+      "芹菜",
+      "香油"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "貢丸（豬肉或魚丸）", "amount": "10 顆" },
-      { "name": "大白菜", "amount": "幾片，切片（可省略）" },
-      { "name": "芹菜", "amount": "1 根，切末（可省略）" }
+      {
+        "name": "貢丸（豬肉或魚丸）",
+        "amount": "10 顆"
+      },
+      {
+        "name": "大白菜",
+        "amount": "幾片，切片（可省略）"
+      },
+      {
+        "name": "芹菜",
+        "amount": "1 根，切末（可省略）"
+      }
     ],
     "steps": [
       "鍋裡 4 杯水煮滾",
@@ -1897,15 +3618,38 @@
     "description": "夏天清熱降火，苦中回甘",
     "time_minutes": 60,
     "difficulty": 1,
-    "tags": ["湯品", "夏天", "養生"],
-    "required_ingredients": ["苦瓜", "排骨"],
-    "optional_ingredients": ["鳳梨", "薑片"],
-    "seasonings": ["鹽", "薑", "米酒"],
+    "tags": [
+      "湯品",
+      "夏天",
+      "養生"
+    ],
+    "required_ingredients": [
+      "苦瓜",
+      "排骨"
+    ],
+    "optional_ingredients": [
+      "鳳梨",
+      "薑片"
+    ],
+    "seasonings": [
+      "鹽",
+      "薑",
+      "米酒"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "苦瓜", "amount": "1 條，切大塊" },
-      { "name": "排骨", "amount": "400g" },
-      { "name": "薑片", "amount": "幾片" }
+      {
+        "name": "苦瓜",
+        "amount": "1 條，切大塊"
+      },
+      {
+        "name": "排骨",
+        "amount": "400g"
+      },
+      {
+        "name": "薑片",
+        "amount": "幾片"
+      }
     ],
     "steps": [
       "排骨冷水下鍋汆燙 5 分鐘洗淨",
@@ -1924,16 +3668,43 @@
     "description": "簡單又補，整鍋香氣四溢",
     "time_minutes": 50,
     "difficulty": 1,
-    "tags": ["湯品", "養生", "宴客"],
-    "required_ingredients": ["雞肉", "香菇"],
-    "optional_ingredients": ["紅棗", "枸杞", "薑片"],
-    "seasonings": ["鹽", "米酒", "薑"],
+    "tags": [
+      "湯品",
+      "養生",
+      "宴客"
+    ],
+    "required_ingredients": [
+      "雞肉",
+      "香菇"
+    ],
+    "optional_ingredients": [
+      "紅棗",
+      "枸杞",
+      "薑片"
+    ],
+    "seasonings": [
+      "鹽",
+      "米酒",
+      "薑"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "雞腿或全雞", "amount": "1 隻，切塊" },
-      { "name": "乾香菇", "amount": "5 朵，泡軟" },
-      { "name": "薑片", "amount": "幾片" },
-      { "name": "紅棗", "amount": "5 顆（可省略）" }
+      {
+        "name": "雞腿或全雞",
+        "amount": "1 隻，切塊"
+      },
+      {
+        "name": "乾香菇",
+        "amount": "5 朵，泡軟"
+      },
+      {
+        "name": "薑片",
+        "amount": "幾片"
+      },
+      {
+        "name": "紅棗",
+        "amount": "5 顆（可省略）"
+      }
     ],
     "steps": [
       "雞肉切塊，冷水下鍋汆燙 3 分鐘洗淨",
@@ -1953,16 +3724,40 @@
     "description": "冬天暖身、坐月子必喝",
     "time_minutes": 50,
     "difficulty": 2,
-    "tags": ["湯品", "冬天", "養生"],
-    "required_ingredients": ["雞肉"],
-    "optional_ingredients": ["枸杞"],
-    "seasonings": ["麻油", "老薑", "米酒"],
+    "tags": [
+      "湯品",
+      "冬天",
+      "養生"
+    ],
+    "required_ingredients": [
+      "雞肉"
+    ],
+    "optional_ingredients": [
+      "枸杞"
+    ],
+    "seasonings": [
+      "麻油",
+      "老薑",
+      "米酒"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "雞腿（仿土雞較好）", "amount": "2 隻，切塊" },
-      { "name": "老薑", "amount": "1 大塊（拇指長）" },
-      { "name": "黑麻油", "amount": "3 大匙" },
-      { "name": "米酒", "amount": "1 大瓶（300ml）" }
+      {
+        "name": "雞腿（仿土雞較好）",
+        "amount": "2 隻，切塊"
+      },
+      {
+        "name": "老薑",
+        "amount": "1 大塊（拇指長）"
+      },
+      {
+        "name": "黑麻油",
+        "amount": "3 大匙"
+      },
+      {
+        "name": "米酒",
+        "amount": "1 大瓶（300ml）"
+      }
     ],
     "steps": [
       "老薑連皮切片",
@@ -1982,15 +3777,38 @@
     "description": "藥膳養生湯，溫和不寒涼",
     "time_minutes": 90,
     "difficulty": 2,
-    "tags": ["湯品", "養生", "經典"],
-    "required_ingredients": ["排骨"],
-    "optional_ingredients": ["豬小腸", "豬肚"],
-    "seasonings": ["四神料", "米酒", "鹽", "當歸（可加可不加）"],
+    "tags": [
+      "湯品",
+      "養生",
+      "經典"
+    ],
+    "required_ingredients": [
+      "排骨"
+    ],
+    "optional_ingredients": [
+      "豬小腸",
+      "豬肚"
+    ],
+    "seasonings": [
+      "四神料",
+      "米酒",
+      "鹽",
+      "當歸（可加可不加）"
+    ],
     "servings": "4 人份",
     "ingredients_with_amount": [
-      { "name": "豬小排", "amount": "300g（或豬小腸 300g）" },
-      { "name": "四神料（中藥行有賣）", "amount": "1 包（含芡實、淮山、蓮子、茯苓）" },
-      { "name": "米酒", "amount": "2 大匙" }
+      {
+        "name": "豬小排",
+        "amount": "300g（或豬小腸 300g）"
+      },
+      {
+        "name": "四神料（中藥行有賣）",
+        "amount": "1 包（含芡實、淮山、蓮子、茯苓）"
+      },
+      {
+        "name": "米酒",
+        "amount": "2 大匙"
+      }
     ],
     "steps": [
       "四神料用清水沖洗一下",
@@ -2009,16 +3827,45 @@
     "description": "蛋汁淋飯上，柔軟下飯",
     "time_minutes": 15,
     "difficulty": 2,
-    "tags": ["快速", "孩子愛", "主食"],
-    "required_ingredients": ["米飯", "雞蛋"],
-    "optional_ingredients": ["蝦仁", "豬肉絲", "蔥"],
-    "seasonings": ["醬油", "鹽", "米酒", "太白粉", "白胡椒粉", "油"],
+    "tags": [
+      "快速",
+      "孩子愛",
+      "主食"
+    ],
+    "required_ingredients": [
+      "雞蛋"
+    ],
+    "optional_ingredients": [
+      "蝦仁",
+      "豬肉絲",
+      "蔥"
+    ],
+    "seasonings": [
+      "醬油",
+      "鹽",
+      "米酒",
+      "太白粉",
+      "白胡椒粉",
+      "油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "白飯", "amount": "2 碗" },
-      { "name": "雞蛋", "amount": "3 顆，打散" },
-      { "name": "蝦仁或肉絲", "amount": "100g（可省略）" },
-      { "name": "蔥", "amount": "1 根，切蔥花" }
+      {
+        "name": "白飯",
+        "amount": "2 碗"
+      },
+      {
+        "name": "雞蛋",
+        "amount": "3 顆，打散"
+      },
+      {
+        "name": "蝦仁或肉絲",
+        "amount": "100g（可省略）"
+      },
+      {
+        "name": "蔥",
+        "amount": "1 根，切蔥花"
+      }
     ],
     "steps": [
       "蝦仁或肉絲用少許醬油、米酒、太白粉抓醃",
@@ -2039,15 +3886,43 @@
     "description": "夏天救星，麻醬香加爽脆小黃瓜",
     "time_minutes": 15,
     "difficulty": 1,
-    "tags": ["夏天", "快速", "主食"],
-    "required_ingredients": ["麵條"],
-    "optional_ingredients": ["小黃瓜", "紅蘿蔔", "雞絲", "蛋絲"],
-    "seasonings": ["芝麻醬", "醬油", "醋", "糖", "蒜頭", "香油", "辣油"],
+    "tags": [
+      "夏天",
+      "快速",
+      "主食"
+    ],
+    "required_ingredients": [
+      "麵條"
+    ],
+    "optional_ingredients": [
+      "小黃瓜",
+      "紅蘿蔔",
+      "雞絲",
+      "蛋絲"
+    ],
+    "seasonings": [
+      "芝麻醬",
+      "醬油",
+      "醋",
+      "糖",
+      "蒜頭",
+      "香油",
+      "辣油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "油麵或細白麵", "amount": "300g" },
-      { "name": "小黃瓜", "amount": "1 根，切細絲" },
-      { "name": "紅蘿蔔", "amount": "幾絲" }
+      {
+        "name": "油麵或細白麵",
+        "amount": "300g"
+      },
+      {
+        "name": "小黃瓜",
+        "amount": "1 根，切細絲"
+      },
+      {
+        "name": "紅蘿蔔",
+        "amount": "幾絲"
+      }
     ],
     "steps": [
       "煮一鍋滾水煮麵到熟",
@@ -2067,17 +3942,52 @@
     "description": "古早味家常版，料豐味美",
     "time_minutes": 25,
     "difficulty": 2,
-    "tags": ["主食", "古早味", "台菜"],
-    "required_ingredients": ["米粉"],
-    "optional_ingredients": ["豬肉絲", "蝦米", "香菇", "高麗菜", "紅蘿蔔", "韭菜"],
-    "seasonings": ["醬油", "米酒", "白胡椒粉", "蒜頭", "紅蔥頭", "油"],
+    "tags": [
+      "主食",
+      "古早味",
+      "台菜"
+    ],
+    "required_ingredients": [
+      "米粉"
+    ],
+    "optional_ingredients": [
+      "豬肉絲",
+      "蝦米",
+      "香菇",
+      "高麗菜",
+      "紅蘿蔔",
+      "韭菜"
+    ],
+    "seasonings": [
+      "醬油",
+      "米酒",
+      "白胡椒粉",
+      "蒜頭",
+      "紅蔥頭",
+      "油"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "新竹米粉", "amount": "1 包（200g）" },
-      { "name": "豬肉絲", "amount": "150g" },
-      { "name": "高麗菜", "amount": "1/4 顆，切絲" },
-      { "name": "紅蘿蔔", "amount": "半根，切絲" },
-      { "name": "乾香菇", "amount": "3 朵，泡軟切絲" }
+      {
+        "name": "新竹米粉",
+        "amount": "1 包（200g）"
+      },
+      {
+        "name": "豬肉絲",
+        "amount": "150g"
+      },
+      {
+        "name": "高麗菜",
+        "amount": "1/4 顆，切絲"
+      },
+      {
+        "name": "紅蘿蔔",
+        "amount": "半根，切絲"
+      },
+      {
+        "name": "乾香菇",
+        "amount": "3 朵，泡軟切絲"
+      }
     ],
     "steps": [
       "米粉用冷水泡 5 分鐘瀝乾（不要泡軟）",
@@ -2098,16 +4008,49 @@
     "description": "湯頭酸甜，家裡也能做出餐廳味",
     "time_minutes": 120,
     "difficulty": 2,
-    "tags": ["主食", "宴客", "經典"],
-    "required_ingredients": ["牛肉", "番茄", "麵條"],
-    "optional_ingredients": ["青菜", "蔥"],
-    "seasonings": ["醬油", "豆瓣醬", "冰糖", "米酒", "薑", "蒜頭", "蔥", "八角", "油"],
+    "tags": [
+      "主食",
+      "宴客",
+      "經典"
+    ],
+    "required_ingredients": [
+      "牛肉",
+      "番茄",
+      "麵條"
+    ],
+    "optional_ingredients": [
+      "青菜",
+      "蔥"
+    ],
+    "seasonings": [
+      "醬油",
+      "豆瓣醬",
+      "冰糖",
+      "米酒",
+      "薑",
+      "蒜頭",
+      "蔥",
+      "八角",
+      "油"
+    ],
     "servings": "3-4 人份",
     "ingredients_with_amount": [
-      { "name": "牛腱", "amount": "600g，切大塊" },
-      { "name": "牛番茄", "amount": "3 顆，切塊" },
-      { "name": "麵條", "amount": "適量（拉麵或刀削麵）" },
-      { "name": "青菜", "amount": "1 把（可省略）" }
+      {
+        "name": "牛腱",
+        "amount": "600g，切大塊"
+      },
+      {
+        "name": "牛番茄",
+        "amount": "3 顆，切塊"
+      },
+      {
+        "name": "麵條",
+        "amount": "適量（拉麵或刀削麵）"
+      },
+      {
+        "name": "青菜",
+        "amount": "1 把（可省略）"
+      }
     ],
     "steps": [
       "牛肉切塊，冷水下鍋汆燙 5 分鐘洗淨",
@@ -2128,16 +4071,45 @@
     "description": "蝦仁蛤蜊鋪滿，鍋氣十足",
     "time_minutes": 15,
     "difficulty": 2,
-    "tags": ["主食", "海鮮", "快速"],
-    "required_ingredients": ["米飯", "蝦仁"],
-    "optional_ingredients": ["雞蛋", "蛤蜊肉", "蔥", "玉米"],
-    "seasonings": ["鹽", "白胡椒粉", "醬油", "蒜頭", "油"],
+    "tags": [
+      "主食",
+      "海鮮",
+      "快速"
+    ],
+    "required_ingredients": [
+      "蝦仁"
+    ],
+    "optional_ingredients": [
+      "雞蛋",
+      "蛤蜊肉",
+      "蔥",
+      "玉米"
+    ],
+    "seasonings": [
+      "鹽",
+      "白胡椒粉",
+      "醬油",
+      "蒜頭",
+      "油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "白飯", "amount": "2 碗（隔夜飯最好）" },
-      { "name": "蝦仁", "amount": "150g" },
-      { "name": "雞蛋", "amount": "2 顆" },
-      { "name": "蔥", "amount": "1 根，切蔥花" }
+      {
+        "name": "白飯",
+        "amount": "2 碗（隔夜飯最好）"
+      },
+      {
+        "name": "蝦仁",
+        "amount": "150g"
+      },
+      {
+        "name": "雞蛋",
+        "amount": "2 顆"
+      },
+      {
+        "name": "蔥",
+        "amount": "1 根，切蔥花"
+      }
     ],
     "steps": [
       "蝦仁洗淨擦乾，撒少許鹽",
@@ -2157,16 +4129,44 @@
     "description": "早餐店招牌自製版，皮 Q 蛋香",
     "time_minutes": 15,
     "difficulty": 1,
-    "tags": ["早餐", "孩子愛", "新手友善"],
-    "required_ingredients": ["麵粉", "雞蛋"],
-    "optional_ingredients": ["蔥", "起司", "玉米", "火腿"],
-    "seasonings": ["鹽", "醬油膏", "油"],
+    "tags": [
+      "早餐",
+      "孩子愛",
+      "新手友善"
+    ],
+    "required_ingredients": [
+      "麵粉",
+      "雞蛋"
+    ],
+    "optional_ingredients": [
+      "蔥",
+      "起司",
+      "玉米",
+      "火腿"
+    ],
+    "seasonings": [
+      "鹽",
+      "醬油膏",
+      "油"
+    ],
     "servings": "2-3 片",
     "ingredients_with_amount": [
-      { "name": "中筋麵粉", "amount": "100g" },
-      { "name": "水", "amount": "150ml" },
-      { "name": "雞蛋", "amount": "2 顆" },
-      { "name": "蔥", "amount": "1 根，切蔥花" }
+      {
+        "name": "中筋麵粉",
+        "amount": "100g"
+      },
+      {
+        "name": "水",
+        "amount": "150ml"
+      },
+      {
+        "name": "雞蛋",
+        "amount": "2 顆"
+      },
+      {
+        "name": "蔥",
+        "amount": "1 根，切蔥花"
+      }
     ],
     "steps": [
       "麵粉加水攪成滑順麵糊（約優酪乳濃度）",
@@ -2187,16 +4187,45 @@
     "description": "吐司浸蛋液煎香，孩子的早餐救星",
     "time_minutes": 15,
     "difficulty": 1,
-    "tags": ["早餐", "孩子愛", "新手友善"],
-    "required_ingredients": ["吐司", "雞蛋"],
-    "optional_ingredients": ["牛奶", "蜂蜜", "肉桂粉", "草莓"],
-    "seasonings": ["糖", "肉桂粉", "牛奶", "奶油"],
+    "tags": [
+      "早餐",
+      "孩子愛",
+      "新手友善"
+    ],
+    "required_ingredients": [
+      "吐司",
+      "雞蛋"
+    ],
+    "optional_ingredients": [
+      "牛奶",
+      "蜂蜜",
+      "肉桂粉",
+      "草莓"
+    ],
+    "seasonings": [
+      "糖",
+      "肉桂粉",
+      "牛奶",
+      "奶油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "厚片吐司", "amount": "2 片" },
-      { "name": "雞蛋", "amount": "2 顆" },
-      { "name": "牛奶", "amount": "100ml" },
-      { "name": "糖", "amount": "1 大匙" }
+      {
+        "name": "厚片吐司",
+        "amount": "2 片"
+      },
+      {
+        "name": "雞蛋",
+        "amount": "2 顆"
+      },
+      {
+        "name": "牛奶",
+        "amount": "100ml"
+      },
+      {
+        "name": "糖",
+        "amount": "1 大匙"
+      }
     ],
     "steps": [
       "雞蛋打散，加牛奶和糖攪勻",
@@ -2215,14 +4244,32 @@
     "description": "煎得金黃酥脆，搭醬油膏好吃",
     "time_minutes": 15,
     "difficulty": 1,
-    "tags": ["早餐", "快速", "新手友善"],
-    "required_ingredients": ["蘿蔔糕"],
-    "optional_ingredients": ["雞蛋"],
-    "seasonings": ["醬油膏", "辣椒醬", "油"],
+    "tags": [
+      "早餐",
+      "快速",
+      "新手友善"
+    ],
+    "required_ingredients": [
+      "蘿蔔糕"
+    ],
+    "optional_ingredients": [
+      "雞蛋"
+    ],
+    "seasonings": [
+      "醬油膏",
+      "辣椒醬",
+      "油"
+    ],
     "servings": "2 人份",
     "ingredients_with_amount": [
-      { "name": "市售蘿蔔糕", "amount": "半條，切方塊" },
-      { "name": "雞蛋", "amount": "2 顆（可省略）" }
+      {
+        "name": "市售蘿蔔糕",
+        "amount": "半條，切方塊"
+      },
+      {
+        "name": "雞蛋",
+        "amount": "2 顆（可省略）"
+      }
     ],
     "steps": [
       "蘿蔔糕切方塊（厚 1.5cm 左右）",
@@ -2241,17 +4288,49 @@
     "description": "假日早午餐療癒系，淋上楓糖完美",
     "time_minutes": 20,
     "difficulty": 1,
-    "tags": ["早餐", "孩子愛", "甜點"],
-    "required_ingredients": ["麵粉", "雞蛋"],
-    "optional_ingredients": ["香蕉", "藍莓", "草莓"],
-    "seasonings": ["糖", "牛奶", "泡打粉", "奶油", "鹽"],
+    "tags": [
+      "早餐",
+      "孩子愛",
+      "甜點"
+    ],
+    "required_ingredients": [
+      "麵粉",
+      "雞蛋"
+    ],
+    "optional_ingredients": [
+      "香蕉",
+      "藍莓",
+      "草莓"
+    ],
+    "seasonings": [
+      "糖",
+      "牛奶",
+      "泡打粉",
+      "奶油",
+      "鹽"
+    ],
     "servings": "3-4 片",
     "ingredients_with_amount": [
-      { "name": "低筋麵粉", "amount": "150g" },
-      { "name": "雞蛋", "amount": "1 顆" },
-      { "name": "牛奶", "amount": "150ml" },
-      { "name": "糖", "amount": "2 大匙" },
-      { "name": "泡打粉", "amount": "1 小匙" }
+      {
+        "name": "低筋麵粉",
+        "amount": "150g"
+      },
+      {
+        "name": "雞蛋",
+        "amount": "1 顆"
+      },
+      {
+        "name": "牛奶",
+        "amount": "150ml"
+      },
+      {
+        "name": "糖",
+        "amount": "2 大匙"
+      },
+      {
+        "name": "泡打粉",
+        "amount": "1 小匙"
+      }
     ],
     "steps": [
       "乾粉：麵粉、糖、泡打粉、少許鹽混合過篩",
