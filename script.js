@@ -506,6 +506,84 @@ function handleInputChange() {
 }
 
 // ============================================
+// 使用教學
+// ============================================
+const TUTORIAL_TOTAL_STEPS = 4;
+const TUTORIAL_SEEN_KEY = 'fridge_tutorial_seen_v1';
+
+let tutorialCurrentStep = 1;
+
+function showTutorial() {
+  tutorialCurrentStep = 1;
+  goToTutorialStep(1);
+  $('tutorial-overlay').classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeTutorial() {
+  $('tutorial-overlay').classList.add('hidden');
+  document.body.style.overflow = '';
+  try {
+    localStorage.setItem(TUTORIAL_SEEN_KEY, '1');
+  } catch (e) {
+    // localStorage 不可用就算了
+  }
+}
+
+function goToTutorialStep(n) {
+  if (n < 1 || n > TUTORIAL_TOTAL_STEPS) return;
+  tutorialCurrentStep = n;
+
+  document.querySelectorAll('.tutorial-step').forEach(el => {
+    if (parseInt(el.dataset.step) === n) {
+      el.classList.remove('hidden');
+    } else {
+      el.classList.add('hidden');
+    }
+  });
+
+  document.querySelectorAll('.dot').forEach(dot => {
+    if (parseInt(dot.dataset.dot) === n) {
+      dot.classList.add('active');
+    } else {
+      dot.classList.remove('active');
+    }
+  });
+
+  const prevBtn = $('tutorial-prev');
+  const nextBtn = $('tutorial-next');
+  const skipBtn = $('tutorial-skip');
+
+  if (n === 1) {
+    prevBtn.classList.add('hidden');
+  } else {
+    prevBtn.classList.remove('hidden');
+  }
+
+  if (n === TUTORIAL_TOTAL_STEPS) {
+    nextBtn.textContent = '開始煮飯吧 👩‍🍳';
+    skipBtn.classList.add('hidden');
+  } else {
+    nextBtn.textContent = '下一步 →';
+    skipBtn.classList.remove('hidden');
+  }
+}
+
+function nextTutorialStep() {
+  if (tutorialCurrentStep === TUTORIAL_TOTAL_STEPS) {
+    closeTutorial();
+  } else {
+    goToTutorialStep(tutorialCurrentStep + 1);
+  }
+}
+
+function prevTutorialStep() {
+  if (tutorialCurrentStep > 1) {
+    goToTutorialStep(tutorialCurrentStep - 1);
+  }
+}
+
+// ============================================
 // 初始化
 // ============================================
 async function init() {
@@ -530,11 +608,42 @@ async function init() {
   $('modal-backdrop').addEventListener('click', closeModal);
   $('modal-close').addEventListener('click', closeModal);
   $('modal-close-bottom').addEventListener('click', closeModal);
+
+  // 使用教學事件
+  $('show-tutorial-btn').addEventListener('click', showTutorial);
+  $('tutorial-close').addEventListener('click', closeTutorial);
+  $('tutorial-skip').addEventListener('click', closeTutorial);
+  $('tutorial-backdrop').addEventListener('click', closeTutorial);
+  $('tutorial-next').addEventListener('click', nextTutorialStep);
+  $('tutorial-prev').addEventListener('click', prevTutorialStep);
+  document.querySelectorAll('.dot').forEach(dot => {
+    dot.addEventListener('click', () => goToTutorialStep(parseInt(dot.dataset.dot)));
+  });
+
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && !$('recipe-modal').classList.contains('hidden')) {
-      closeModal();
+    if (e.key === 'Escape') {
+      if (!$('recipe-modal').classList.contains('hidden')) {
+        closeModal();
+      } else if (!$('tutorial-overlay').classList.contains('hidden')) {
+        closeTutorial();
+      }
+    }
+    if (!$('tutorial-overlay').classList.contains('hidden')) {
+      if (e.key === 'ArrowRight') nextTutorialStep();
+      if (e.key === 'ArrowLeft') prevTutorialStep();
     }
   });
+
+  // 第一次造訪自動跳出教學
+  let hasSeen = false;
+  try {
+    hasSeen = localStorage.getItem(TUTORIAL_SEEN_KEY) === '1';
+  } catch (e) {
+    hasSeen = false;
+  }
+  if (!hasSeen) {
+    setTimeout(showTutorial, 300);
+  }
 }
 
 document.addEventListener('DOMContentLoaded', init);

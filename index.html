@@ -64,7 +64,7 @@
     }
   </script>
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body class="bg-bg-cream text-text-primary font-sans min-h-screen">
 
@@ -72,7 +72,14 @@
   <div class="max-w-2xl mx-auto px-4 py-8 md:py-12">
 
     <!-- 頂部標題 -->
-    <header class="text-center mb-8">
+    <header class="text-center mb-8 relative">
+      <button
+        id="show-tutorial-btn"
+        type="button"
+        class="help-btn"
+        aria-label="再看一次使用教學"
+        title="再看一次教學"
+      >? 教學</button>
       <h1 class="text-3xl md:text-4xl font-semibold mb-3">冰箱裡有什麼？</h1>
       <p class="text-text-secondary text-base md:text-lg">
         告訴我你有的食材，我幫你找出今天可以做的料理
@@ -163,6 +170,91 @@
 
   </div>
 
+  <!-- 使用教學 Overlay -->
+  <div
+    id="tutorial-overlay"
+    class="tutorial-overlay hidden"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="tutorial-title"
+  >
+    <div id="tutorial-backdrop" class="tutorial-backdrop"></div>
+
+    <div class="tutorial-card" role="document">
+      <button
+        id="tutorial-close"
+        type="button"
+        class="tutorial-close"
+        aria-label="關閉教學"
+      >✕</button>
+
+      <!-- Step 1 -->
+      <div class="tutorial-step" data-step="1">
+        <div class="tutorial-icon">📝</div>
+        <h2 id="tutorial-title" class="tutorial-title">告訴我冰箱裡有什麼</h2>
+        <p class="tutorial-desc">直接打字，或點下方的快速食材按鈕。</p>
+        <div class="tutorial-visual">
+          <div class="visual-input">雞蛋、洋蔥、番茄</div>
+          <div class="visual-chips">
+            <span class="visual-chip">雞蛋</span>
+            <span class="visual-chip visual-chip-on">洋蔥</span>
+            <span class="visual-chip">番茄</span>
+          </div>
+        </div>
+        <p class="tutorial-tip">💡 小撇步：點 chip 一下加入，再點一下移除</p>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="tutorial-step hidden" data-step="2">
+        <div class="tutorial-icon">✨</div>
+        <h2 class="tutorial-title">按按鈕找料理</h2>
+        <p class="tutorial-desc">點金色「看看可以做什麼」<br>從 80 道家常菜裡幫你挑出今天能做的</p>
+        <div class="tutorial-visual">
+          <div class="visual-button">看看可以做什麼</div>
+        </div>
+        <p class="tutorial-tip">💡 不想輸入？直接點下面的分類逛 80 道</p>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="tutorial-step hidden" data-step="3">
+        <div class="tutorial-icon">🎯</div>
+        <h2 class="tutorial-title">看推薦結果</h2>
+        <p class="tutorial-desc">綠色 = 完全可以做、橘色 = 缺幾樣食材<br>順手買回來就能做</p>
+        <div class="tutorial-visual visual-badges">
+          <span class="badge badge-can-make">✓ 完全可以做</span>
+          <span class="badge badge-missing">差 1 樣：蔥</span>
+        </div>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="tutorial-step hidden" data-step="4">
+        <div class="tutorial-icon">👩‍🍳</div>
+        <h2 class="tutorial-title">點卡片看完整作法</h2>
+        <p class="tutorial-desc">食材份量、5-8 步驟教學、實用 tips<br>都幫你寫好了</p>
+        <div class="tutorial-visual visual-card">
+          <div class="visual-card-name">番茄炒蛋</div>
+          <div class="visual-card-meta">⏱ 10 分鐘 · ★☆☆</div>
+          <div class="visual-card-step">1. 番茄切塊備用，雞蛋打散加少許鹽</div>
+        </div>
+      </div>
+
+      <!-- Footer：dots + buttons -->
+      <div class="tutorial-footer">
+        <div class="tutorial-dots" role="tablist" aria-label="教學步驟">
+          <span class="dot active" data-dot="1"></span>
+          <span class="dot" data-dot="2"></span>
+          <span class="dot" data-dot="3"></span>
+          <span class="dot" data-dot="4"></span>
+        </div>
+        <div class="tutorial-actions">
+          <button id="tutorial-skip" type="button" class="tutorial-skip">跳過</button>
+          <button id="tutorial-prev" type="button" class="tutorial-btn-secondary hidden">上一步</button>
+          <button id="tutorial-next" type="button" class="tutorial-btn-primary">下一步 →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Modal：料理作法 -->
   <div
     id="recipe-modal"
@@ -213,6 +305,6 @@
     </div>
   </div>
 
-  <script src="script.js?v=1"></script>
+  <script src="script.js?v=2"></script>
 </body>
 </html>

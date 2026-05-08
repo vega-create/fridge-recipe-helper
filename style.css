@@ -429,6 +429,323 @@ textarea, input {
 }
 
 /* ============================================
+   使用教學 Overlay
+   ============================================ */
+.help-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1.5px solid var(--border-light);
+  background: var(--card-white);
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.help-btn:hover {
+  border-color: var(--accent-gold);
+  color: var(--accent-gold);
+}
+
+.tutorial-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.tutorial-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(60, 40, 20, 0.55);
+  backdrop-filter: blur(2px);
+  animation: fadeIn 0.25s ease;
+}
+
+.tutorial-card {
+  position: relative;
+  width: 100%;
+  max-width: 440px;
+  background: var(--card-white);
+  border-radius: 24px;
+  padding: 32px 28px 24px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  animation: tutorialPop 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+  max-height: 92vh;
+  overflow-y: auto;
+}
+
+@keyframes tutorialPop {
+  from {
+    opacity: 0;
+    transform: scale(0.92) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.tutorial-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tutorial-close:hover {
+  background: var(--bg-cream);
+  color: var(--text-primary);
+}
+
+.tutorial-step {
+  text-align: center;
+  padding: 8px 0 24px;
+  animation: stepFade 0.3s ease;
+}
+
+@keyframes stepFade {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.tutorial-icon {
+  font-size: 56px;
+  line-height: 1;
+  margin-bottom: 16px;
+  animation: iconBounce 0.5s ease 0.1s both;
+}
+
+@keyframes iconBounce {
+  0% { transform: scale(0.5); opacity: 0; }
+  60% { transform: scale(1.15); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.tutorial-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 12px 0;
+  line-height: 1.4;
+}
+
+.tutorial-desc {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin: 0 0 20px 0;
+}
+
+.tutorial-tip {
+  font-size: 0.825rem;
+  color: var(--text-secondary);
+  background: var(--bg-cream);
+  padding: 10px 14px;
+  border-radius: 12px;
+  margin: 16px 0 0 0;
+  text-align: left;
+  line-height: 1.5;
+}
+
+/* Visual demos in tutorial */
+.tutorial-visual {
+  margin: 16px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 16px;
+  background: var(--bg-cream);
+  border-radius: 16px;
+  border: 1px dashed var(--border-light);
+}
+
+.visual-input {
+  width: 100%;
+  padding: 10px 14px;
+  background: var(--card-white);
+  border: 1.5px solid var(--accent-gold);
+  border-radius: 8px;
+  font-size: 0.875rem;
+  color: var(--text-primary);
+  text-align: left;
+}
+
+.visual-chips {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.visual-chip {
+  padding: 4px 12px;
+  border-radius: 999px;
+  border: 1.5px solid var(--border-light);
+  background: var(--card-white);
+  color: var(--text-primary);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.visual-chip-on {
+  background: var(--accent-gold);
+  border-color: var(--accent-gold);
+  color: var(--card-white);
+}
+
+.visual-button {
+  padding: 12px 24px;
+  background: var(--accent-gold);
+  color: var(--card-white);
+  border-radius: 12px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(201, 169, 97, 0.3);
+}
+
+.visual-badges {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.visual-card {
+  width: 100%;
+  align-items: stretch;
+  background: var(--card-white);
+  border: 1px solid var(--border-light);
+  padding: 14px 16px;
+  gap: 4px;
+  text-align: left;
+}
+
+.visual-card-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.visual-card-meta {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.visual-card-step {
+  font-size: 0.825rem;
+  color: var(--text-primary);
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px dashed var(--border-light);
+}
+
+/* Footer */
+.tutorial-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-light);
+}
+
+.tutorial-dots {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--border-light);
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.dot.active {
+  background: var(--accent-gold);
+  width: 24px;
+  border-radius: 4px;
+}
+
+.tutorial-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.tutorial-skip {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  cursor: pointer;
+  padding: 10px 4px;
+  font-weight: 500;
+}
+
+.tutorial-skip:hover {
+  color: var(--text-primary);
+}
+
+.tutorial-btn-primary,
+.tutorial-btn-secondary {
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-height: 44px;
+}
+
+.tutorial-btn-primary {
+  background: var(--accent-gold);
+  border: 1.5px solid var(--accent-gold);
+  color: var(--card-white);
+  flex: 1;
+  max-width: 180px;
+  margin-left: auto;
+}
+
+.tutorial-btn-primary:hover {
+  background: var(--accent-gold-dark);
+  border-color: var(--accent-gold-dark);
+}
+
+.tutorial-btn-secondary {
+  background: var(--card-white);
+  border: 1.5px solid var(--border-light);
+  color: var(--text-primary);
+}
+
+.tutorial-btn-secondary:hover {
+  border-color: var(--text-secondary);
+}
+
+/* ============================================
    無障礙：reduce motion
    ============================================ */
 @media (prefers-reduced-motion: reduce) {
